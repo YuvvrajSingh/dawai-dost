@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+/* ──────────────────────────────────────────────────────────────
+   Dawai Dost — v3 "UPI idiom"
+   Borrowed from how GPay / PhonePe / Paytm feel to Indian users:
+   white canvas, round icon actions with labels, monogram avatars,
+   pill buttons, one confident brand green, big centred amounts,
+   and a success moment when something good happens.
+   ────────────────────────────────────────────────────────────── */
+@theme {
+  --color-bg: #ffffff;
+  --color-soft: #f3f6f4; /* sections, search pill */
+  --color-soft-2: #e8ede9;
+  --color-line: #e6eae7;
+
+  --color-ink: #1b1f1d;
+  --color-ink-2: #5c6560;
+  --color-ink-3: #8f9893;
+
+  --color-brand: #0a7a52;
+  --color-brand-press: #08653f;
+  --color-brand-tint: #e3f3eb;
+  --color-brand-ink: #075a3c;
+
+  --color-mint: #a8e0c6;
+  --color-amber: #a35a00;
+  --color-amber-tint: #fdf1de;
+  --color-red: #c5221f;
+  --color-red-tint: #fce8e6;
+
+  --font-sans: "Google Sans Variable", "Google Sans", ui-sans-serif, system-ui, -apple-system, "Noto Sans Devanagari", sans-serif;
+
+  --text-hero: 3rem;
+  --text-hero--line-height: 1;
+  --text-hero--letter-spacing: -0.02em;
+  --text-title: 1.5rem;
+  --text-title--line-height: 1.25;
+  --text-headline: 1.125rem;
+  --text-headline--line-height: 1.3;
+  --text-body: 1rem;
+  --text-body--line-height: 1.45;
+  --text-sub: 0.875rem;
+  --text-sub--line-height: 1.4;
+  --text-small: 0.75rem;
+  --text-small--line-height: 1.3;
+}
+
+@layer base {
+  html,
+  body {
+    height: 100%;
+  }
+  body {
+    background: #eef1ef;
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1,
+  h2 {
+    text-wrap: balance;
+  }
+  button {
+    cursor: pointer;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-brand);
+    outline-offset: 2px;
+    border-radius: 12px;
+  }
+}
+
+[data-text="large"] {
+  font-size: 112.5%;
+}
+
+@layer components {
+  .num {
+    font-variant-numeric: tabular-nums;
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .card {
+    background: #fff;
+    border: 1px solid var(--color-line);
+    border-radius: 20px;
+  }
+  .glass-dark {
+    background: rgb(20 22 21 / 0.7);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+  }
+  @supports not (backdrop-filter: blur(1px)) {
+    .glass-dark {
+      background: rgb(20 22 21 / 0.94);
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

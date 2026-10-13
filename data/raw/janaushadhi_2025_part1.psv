@@ -1,0 +1,923 @@
+drug_code|generic_name|unit_size|mrp
+1|Aceclofenac 100mg and Paracetamol 325mg Tablets|10's|10.00
+2|Aceclofenac Tablets IP 100 mg|10's|8.00
+3|Pregabalin Capsules IP 75 mg|10's|22.00
+5|Aspirin Gastro-resistant Tablets IP 150 mg|14's|5.00
+6|Chlorzoxazone 500mg, Diclofenac 50mg and Paracetamol 325mg Tablets|10's|25.00
+7|Diclofenac Gel IP 1.16%w/w (Diclofenac Diethylamine)|15 g|12.00
+8|Serratiopeptidase 10mg and Diclofenac Sodium 50mg Tablets|10's|15.40
+9|Diclofenac Sodium Prolonged Release Tablets IP 100 mg|10's|12.10
+10|Diclofenac Sodium Injection IP 25mg per ml|3 ml|4.00
+11|Diclofenac Gastro-Resistant Tablets IP 50 mg|10's|5.50
+12|Etoricoxib Tablets IP 120 mg|10's|38.00
+13|Etoricoxib Tablets IP 90 mg|10's|31.00
+14|Ibuprofen 400mg and Paracetamol 325mg Tablets IP|10's|8.00
+15|Ibuprofen Tablets IP 200 mg|10's|3.00
+16|Ibuprofen Tablets IP 400 mg|15's|8.80
+17|Indomethacin Capsules IP 25 mg|10's|13.00
+18|Azithromycin Tablets IP 250 mg|6's|45.00
+19|Nimesulide 100mg and Paracetamol 325mg Tablets|10's|11.00
+20|Nimesulide Tablets 100 mg|10's|6.60
+21|Diclofenac Sodium 50mg and Paracetamol 325mg Tablets IP|10's|9.90
+22|Paracetamol Paediatric Oral Suspension IP 125 mg per 5 ml|60 ml|11.00
+23|Paracetamol Tablets IP 500 mg|10's|7.00
+24|Pentazocine Injection IP 30 mg per ml|1 ml|15.00
+25|Serratiopeptidase Tablets IP 10 mg|10's|12.10
+26|Tramadol Hydrochloride Injection 100 mg per 2 ml|2 ml|8.00
+27|Tramadol HCl Injection 50mg|1 ml|5.00
+28|Tramadol Tablets 50mg|10's|8.00
+29|Aciclovir Tablets IP 400 mg|10's|44.00
+30|Amikacin Injection IP 100 mg per 2 ml|2 ml Vial|12.00
+31|Amikacin Injection IP 250 mg per 2 ml|2 ml Vial|20.00
+32|Amikacin Injection IP 500 mg per 2 ml|2 ml Vial|29.00
+34|Metformin Hydrochloride Prolonged-release 500mg and Glimepiride 2mg Tablets IP|15's|26.40
+35|Amoxycillin 1g and Potassium Clavulanate 200mg Injection IP Vial & Wfi|Vial & Wfi|58.00
+36|Amoxycillin 200mg and Potassium Clavulanate 28.5mg Oral Suspension IP per 5ml|30 ml|27.00
+37|Amoxycillin 250mg and Potassium Clavulanate 50mg Injection IP Vial & Wfi|Vial & Wfi|28.00
+38|Amoxycillin 500mg and Potassium Clavulanate 100mg Injection IP Vial & Wfi|Vial & Wfi|40.00
+39|Amoxycillin 500mg and Potassium Clavulanate 125mg Tablets IP|6's|56.10
+40|Amoxycillin 250mg and Cloxacillin 250mg Capsules|10's|31.90
+42|Amoxycillin Trihydrate Dispersible Tablets IP 125 mg|10's|12.00
+43|Amoxycillin Oral Suspension IP 125mg per 5ml|60 ml|19.00
+44|Amoxycillin Capsules IP 250mg|10's|13.20
+45|Amoxycillin Capsules IP 500mg|10's|35.00
+46|Ampicillin Injection IP 500 mg|Vial|7.70
+47|Azithromycin Oral Suspension IP 100mg per 5ml|15 ml|15.00
+48|Azithromycin Dispersible Tablets 100mg|10's|27.00
+51|Cefadroxil Dispersible Tablets 250mg|10's|18.70
+52|Cefadroxil Tablets IP 500 mg|10's|24.20
+53|Cefixime Oral Suspension IP 50mg per 5ml|30 ml|20.00
+54|Cefixime Tablets IP 100 mg|10's|28.00
+55|Cefixime Tablets IP 200 mg|10's|53.00
+56|Cefoperazone 1g and Sulbactam 1g Injection Vial & Wfi|Vial & Wfi|88.00
+57|Cefoperazone 500mg and Sulbactam 500mg Injection Vial & Wfi|Vial & Wfi|50.00
+58|Cefoperazone Injection IP 1 g Vial & Wfi|Vial & Wfi|46.00
+59|Cefotaxime Sodium 1g and Sulbactam Sodium 500mg Injection Vial & Wfi|Vial & Wfi|28.00
+60|Cefotaxime Sodium 250mg and Sulbactam Sodium 125mg Injection Vial & Wfi|Vial & Wfi|12.10
+61|Cefotaxime Sodium 500mg and Sulbactam Sodium 250mg Injection Vial & Wfi|Vial & Wfi|19.00
+62|Cefotaxime Sodium Injection IP 1g Vial & Wfi|Vial & Wfi|19.00
+63|Cefotaxime Sodium Injection IP 250 mg Vial & Wfi|Vial & Wfi|10.00
+64|Cefotaxime Sodium Injection IP 500 mg Vial & Wfi|Vial & Wfi|12.00
+65|Cefpodoxime Proxetil Dispersible Tablets 100 mg|10's|40.00
+66|Cefpodoxime Tablets IP 200 mg|10's|70.00
+67|Ceftazidime Injection IP 1g Vial & Wfi|Vial & Wfi|80.00
+68|Ceftazidime Injection IP 250mg Vial & Wfi|Vial & Wfi|30.00
+69|Ceftazidime Injection IP 500mg Vial & Wfi|Vial & Wfi|50.00
+70|Ceftriaxone 1g and Sulbactam 500mg Injection Vial & Wfi|Vial & Wfi|48.00
+71|Ceftriaxone 1g and Tazobactam 125mg Injection Vial & Wfi|Vial & Wfi|48.00
+72|Azithromycin Tablets IP 500 mg|3's|42.00
+73|Ceftriaxone 250 mg and Sulbactam 125 mg Injection Vial & Wfi|Vial & Wfi|17.00
+74|Ceftriaxone 500mg and Sulbactam 250mg Injection Vial & Wfi|Vial & Wfi|35.00
+75|Ceftriaxone Injection IP 1 g Vial & Wfi|Vial & Wfi|28.00
+76|Ceftriaxone Injection IP 250 mg Vial & Wfi|Vial & Wfi|13.00
+77|Ceftriaxone Injection IP 500 mg Vial & Wfi|Vial & Wfi|24.00
+78|Cefuroxime Axetil Tablets IP 250 mg|10's|75.00
+79|Cefuroxime Axetil Tablets IP 500 mg|10's|142.00
+80|Cephalexin Tablets IP 125mg (Dispersible)|10's|21.00
+81|Cephalexin Capsules IP 250mg|10's|33.00
+82|Cephalexin Capsules IP 500mg|10's|50.00
+83|Ciprofloxacin 250mg and Tinidazole 300mg Tablets|10's|28.00
+84|Ciprofloxacin 500mg and Tinidazole 600mg Tablets|10's|39.00
+85|Ciprofloxacin Hydrochloride Tablets IP 250 mg|10's|11.00
+86|Ciprofloxacin Hydrochloride Tablets IP 500 mg|10's|20.00
+87|Clotrimazole Cream IP 1% w/w|15 g tubes|15.40
+88|Co-trimoxazole (Sulphamethoxazole 200mg and Trimethoprim 40mg per 5ml) Oral Suspension IP|50 ml|15.00
+89|Co-trimoxazole (Sulphamethoxazole 800mg and Trimethoprim 160mg) Tablets IP|10's|12.10
+90|Co-trimoxazole (Sulphamethoxazole 100mg and Trimethoprim 20mg) Tablets IP|10's|2.20
+92|Doxycycline Capsules IP 100mg|10's|15.40
+93|Erythromycin Stearate Tablets IP 250mg|10's|20.90
+94|Gentamicin Sulphate Injection IP 80 mg per 2ml|2 ml|5.43
+95|Levofloxacin Tablets IP 250mg|10's|18.00
+96|Levofloxacin Tablets IP 500mg|10's|33.00
+97|Meropenem Injection IP 1 g Vial & Wfi|Vial & Wfi|236.00
+98|Norfloxacin 400mg and Tinidazole 600mg Tablets|10's|40.00
+99|Norfloxacin Tablets IP 400 mg|10's|21.00
+100|Ofloxacin 200mg and Ornidazole 500mg Tablets IP|10's|27.50
+101|Ofloxacin Tablets IP 200mg|10's|14.00
+102|Ofloxacin Tablets IP 400mg|10's|35.00
+103|Piperacillin 4000mg and Tazobactum 500mg Injection IP Vial & Wfi|Vial & Wfi|122.00
+104|Roxithromycin Oral Suspension 50 mg per 5ml|30 ml|16.00
+105|Roxithromycin Tablets IP 150 mg|10's|28.00
+106|Roxithromycin Tablets IP 300 mg|10's|50.00
+107|Tinidazole Tablets IP 300 mg|10's|13.00
+108|Tinidazole Tablets IP 500 mg|10's|16.00
+109|Vancomycin Hydrochloride for Intravenous Infusion IP 500 mg Vial & Wfi|Vial & Wfi|135.00
+110|Adapalene Gel 0.1%w/w|15 gm tubes|29.00
+112|Beclomethasone Dipropionate 0.025%w/w, Clotrimazole 1%w/w and Gentamicin Sulphate 0.1%w/w Cream|15 g tubes|20.00
+113|Beclomethasone 0.025%w/w and Neomycin 0.5%w/w Cream|15g tube|11.00
+115|Calamine Lotion IP|100 ml|28.00
+117|Chlorhexidine Mouthwash IP 0.2 % w/v|100 ml|23.00
+118|Clobetasol Propionate Cream IP 0.05 % w/w|15 gm Tube|15.00
+120|Fusidic Acid Cream IP 2% w/w|5 gm Tube|25.00
+122|Ketoconazole Lotion 2% w/v|100 ml Bottle|55.00
+124|Povidone Iodine Ointment 5% w/w|250 gm tubes/Jar|115.00
+125|Povidone Iodine Ointment 5% w/w|15 gm tubes|15.40
+126|Povidone-Iodine Solution IP 10 % w/v|500 ml|145.00
+127|Povidone-Iodine Solution IP 5 % w/v|100 ml|21.00
+129|Povidone Iodine Solution 7.5% w/v|500 ml|121.00
+131|Silver Sulphadiazine 1% w/w, Chlorhexidine Gluconate 0.2% w/w, Allantoin 0.1% w/w, Aloe vera 15% w/w Cream|20 gm|30.00
+132|Silver Sulphadiazine 1% w/w, Chlorhexidine Gluconate 0.2% w/w, Allantoin 0.1% w/w, Aloe vera 15% w/w Cream|500 gm|500.00
+133|Glibenclamide Tablets IP 2.5 mg|10's|3.00
+134|Glibenclamide Tablets IP 5 mg|10's|5.50
+135|Gliclazide Tablets IP 40 mg|10's|15.40
+136|Gliclazide Tablets IP 80 mg|10's|24.00
+137|Glimepiride Tablets IP 1mg|10's|4.40
+138|Glimepiride Tablets IP 2mg|10's|5.50
+141|Glipizide Tablet IP 5 mg|10's|5.00
+142|Soluble Insulin Injection IP 40 IU per ml (R-DNA Origin)|10 ml Vial|78.10
+143|Insulin Injection IP 40 IU per ml (Insulin Human Soluble 30% and Isophane 70%)|10 ml Vial|90.00
+144|Metformin Hydrochloride Sustained Release Tablets IP 1000 mg|10's|13.20
+145|Metformin Hydrochloride Tablets IP 500mg|10's|6.60
+147|Pioglitazone Tablets IP 30mg|10's|13.20
+150|Pioglitazone 15mg and Metformin 500mg Sustained Release Tablets|10's|27.00
+152|Bleomycin Injection IP 15 IU|Vial|300.00
+153|Cisplatin Injection IP 10 mg per10ml|Vial|35.00
+154|Cisplatin Injection 50mg per 50ml|Vial|171.60
+156|Doxorubicin Injection IP 50mg (2mg per ml)|Vial|300.00
+158|Etoposide Injection IP 100 mg per 5 ml|Vial|99.00
+159|Gemcitabine Injection IP 1000mg|Vial|836.00
+160|Gemcitabine Injection IP 200mg|Vial|240.00
+163|Tamoxifen Citrate Tablets IP 10 mg|10's|11.00
+164|Tamoxifen Citrate Tablets IP 20 mg|10's|16.00
+165|Ciprofloxacin Injection IP 200mg|100 ml|12.00
+170|Mannitol Injection IP 20% w/v|100 ml|28.00
+171|Mannitol Intravenous Infusion IP 20% w/v|350 ml|50.00
+172|Metronidazole Infusion IP 500 mg|100 ml|8.80
+177|Albendazole Oral Suspension IP 200 mg per 5ml|10 ml|8.00
+178|Albendazole 400mg and Ivermectin 6mg Tablets|1's|6.60
+180|Bisacodyl Tablets IP 5mg|10's|6.00
+181|Tricholine Citrate 275mg and Cyproheptadine Hydrochloride 2mg Syrup per 5ml|200 ml|38.00
+183|Dicyclomine Tablets IP 10mg|10's|1.00
+184|Paracetamol 325mg and Dicyclomine Hydrochloride 20mg Tablets|10's|8.00
+186|Domperidone Tablets IP 10 mg|10's|4.40
+187|Domperidone Suspension IP 5mg per 5ml|30 ml|13.00
+188|Dried Aluminium Hydroxide 250mg, Magnesium Hydroxide 250mg and Activated Dimethicone 50mg Tablets|10's|6.00
+191|Famotidine Tablets IP 20 mg|14's|3.00
+192|Famotidine Tablets IP 40 mg|14's|4.84
+193|Furazolidone Tablets IP 100 mg|10's|1.00
+194|Hyoscine Butylbromide Tablets IP 10 mg|10's|17.60
+196|Lactic Acid Bacillus Tablets 60 Million spores|10's|7.70
+197|Lactulose Solution 10g per 15ml|100 ml|57.00
+198|Dried Aluminium Hydroxide 250mg, Magnesium Hydroxide 250mg and Activated Dimethicone 50mg per 5ml Suspension|170 ml|32.00
+199|Metoclopramide Tablets IP 10 mg|10's|8.00
+200|Metoclopramide Injection IP 5mg per ml|2ml Ampoule|3.00
+201|Metronidazole Tablets IP 200mg|10's|4.40
+202|Metronidazole Tablets IP 400mg|10's|7.00
+203|Misoprostol Tablets IP 200 mcg|4's|20.00
+206|Omeprazole 20mg and Domperidone 10mg Capsules IP|10's|11.00
+207|Omeprazole Gastro-resistant Capsules IP 20 mg|10's|9.90
+208|Ondansetron Injection IP 2mg per ml|2 ml|4.40
+209|Ondansetron Tablets IP 4 mg|10's|6.60
+210|Ornidazole Tablets IP 500mg|10's|25.00
+212|Pantoprazole Gastro Resistant Tablets IP 40 mg|10's|12.10
+213|Pantoprazole Injection 40mg|Vial|23.10
+214|Rabeprazole 20mg (Enteric Coated) and Domperidone 30mg (Sustained Release) Capsules|10's|18.00
+215|Rabeprazole Gastro Resistant Tablets IP 20 mg|10's|8.80
+216|Ranitidine Injection IP 25 mg per ml|2 ml|4.00
+217|Ranitidine Tablets IP 150 mg|10's|6.00
+218|Ranitidine Tablets IP 300 mg|10's|13.00
+220|Calcium 500mg and Vitamin D3 250IU Tablets IP|10's|7.70
+223|Pyridoxine Hydrochloride 10mg, Doxylamine 10mg and Folic Acid 2.5mg Tablets|30's|35.00
+224|Folic Acid Tablets IP 5 mg|15's|4.40
+225|Syrup of Iron and Folic Acid in a flavoured Base|200 ml|35.20
+227|Polyvitamin Tablets NFI (Prophylactic)|10's|7.00
+230|Vitamin B-Complex fort Zinc Capsule|10's|9.90
+231|Vitamin B-Complex Tablets (B1 10mg, B2 10mg, B3 45mg, B5 50mg, B6 3mg, B12 15mcg)|10's|16.00
+232|Vitamin B-Complex Syrup|200 ml|42.00
+235|Budesonide Nebuliser Suspension 1mg per 2ml|2 ml|13.20
+236|Budesonide Inhalation IP 100mcg 200 MDI|200 MDI|123.00
+238|Budesonide Inhalation IP 200mcg 200 md|200 md|160.00
+239|Cetirizine Syrup IP 5 mg per 5 ml|60 ml|13.00
+240|Cetrizine Hydrochloride Tablets IP 10mg|10's|5.50
+245|Etophyllin 77mg and Theophylline 23mg Tablets|10's|5.00
+246|Fexofenadine Hydrochloride Tablets IP 120mg|10's|24.00
+247|Fexofenadine Tablets IP 180 mg|10's|37.40
+248|Levocetrizine Tablets IP 5 mg|10's|7.70
+250|Montelukast Sodium Tablets IP 5mg|10's|15.00
+251|Montelukast Sodium Tablets IP 10mg|10's|19.80
+252|Montelukast Sodium 10mg and Levocetirizine 5mg Tablets IP|10's|20.00
+253|Pheniramine Maleate Tablets IP 25 mg|15's|5.00
+254|Promethazine Syrup IP 5mg per 5ml|100 ml|14.00
+255|Salbutamol Inhalation IP 100mcg 200 md|200 md|50.00
+256|Salbutamol Tablets IP 2mg|10's|1.00
+259|Salbutamol Syrup IP 2mg per 5ml|100 ml|11.00
+260|Salbutamol Tablets IP 4 mg|10's|2.00
+261|Adenosine Injection IP 6 mg per 2ml|2 ml|105.00
+263|Amlodipine 5mg and Atenolol 50mg Tablets IP|10's|7.00
+264|Amlodipine Tablets IP 5mg|10's|5.50
+265|Atenolol Tablets IP 50 mg|14's|6.60
+266|Atorvastatin Tablets IP 10mg|10's|8.80
+267|Atorvastatin Tablets IP 20mg|10's|12.10
+268|Clonidine Tablets IP 100 mcg|10's|11.00
+269|Clopidogrel Tablets IP 75mg|10's|18.70
+270|Clopidogrel 75mg and Aspirin 75mg Tablets IP|10's|21.00
+271|Diltiazem Tablets IP 30 mg|10's|12.10
+272|Diltiazem Tablets IP 60 mg|10's|17.00
+273|Dobutamine Injection IP 250mg per 20ml (for Intravenous Infusion)|Vial|38.00
+274|Dopamine Hydrochloride Injection IP 200 mg per 5ml|5 ml|15.00
+275|Enalapril Tablets IP 5 mg|10's|5.50
+276|Enoxaparin Injection IP 40 mg per 0.4 ml|0.4 ml|187.00
+277|Enoxaparin Injection IP 60 mg per 0.6 ml|0.6 ml|217.80
+278|Frusemide Injection IP 10 mg per ml|2 ml|3.00
+279|Frusemide Tablets IP 40 mg|10's|5.00
+280|Heparin Sodium Injection IP 5000 IU|5 ml|42.90
+281|Heparin Sodium Injection IP 25000 IU|5 ml|200.00
+283|Isosorbide Dinitrate Tablets IP 10mg|50's|21.00
+285|Amlodipine 5mg and Lisinopril 5mg Tablets IP|15's|16.00
+286|Lisinopril Tablets IP 5mg|10's|10.00
+287|Losartan Potassium 50mg and Hydrochlorothiazide 12.5mg Tablets IP|10's|13.20
+288|Losartan Tablets IP 25mg|10's|7.70
+289|Losartan Tablets IP 50mg|10's|12.10
+290|Metoprolol Tablets IP 25 mg|10's|6.60
+291|Metoprolol Extended release Tablets IP 50mg|10's|9.90
+293|Ramipril Tablets IP 2.5 mg|10's|7.70
+294|Ramipril Tablets IP 5 mg|10's|10.00
+295|Simvastatin Tablets IP 10mg|10's|11.00
+296|Simvastatin Tablets IP 20mg|10's|16.00
+298|Telmisartan 40mg and Hydrochlorothiazide 12.5mg Tablets IP|10's|17.00
+299|Telmisartan Tablets IP 20mg|10's|11.00
+300|Telmisartan Tablets IP 40mg|10's|12.00
+301|Tranexamic Acid Tablets IP 500 mg|10's|74.00
+302|Tranexamic Acid Injection IP 500 mg (100mg per ml)|5 ml Amp.|24.00
+304|Arteether Injection 150 mg|2 ml Ampoule|19.00
+305|Chloroquine Phosphate Tablets IP 250 mg|10's|5.00
+311|Disodium Hydrogen Citrate Syrup (Alkalyser) 1.4 gm per 5 ml|100 ml|22.00
+312|Oral Rehydration Salts IP 20.5g Sachet (WHO Formula)|1's|10.00
+313|Alprazolam Tablets IP 0.25 mg|10's|4.40
+314|Alprazolam Tablets IP 0.5 mg|10's|7.70
+316|Betahistine Tablets IP 8 mg|10's|8.80
+317|Carbamazepine Tablets IP 100 mg|10's|8.00
+319|Clonazepam Tablets IP 0.5 mg|10's|5.50
+320|Diazepam Tablets IP 5 mg|10's|6.00
+321|Escitalopram Tablets IP 10 mg|10's|10.00
+322|Escitalopram Tablets IP 20 mg|10's|20.00
+323|Flunarizine Tablets IP 10 mg|10's|8.00
+324|Flunarizine Tablets IP 5 mg|10's|7.00
+325|Fluoxetine Hydrochloride Capsules IP 20mg|10's|8.80
+326|Methyl Ergometrine Tablets IP 0.125 mg|10's|11.00
+327|Phenytoin Tablets IP 100 mg|100's in Bottle|55.00
+328|Prochlorperazine Tablets IP 5 mg|10's|6.00
+329|Prednisolone Tablets IP 5 mg|15's|8.00
+330|Prednisolone Tablets IP 10 mg|10's|9.00
+332|Thyroxine Sodium Tablets IP 100 mcg|100's|68.20
+333|Dexamethasone Tablets IP 0.5 mg|10's|2.00
+334|Dexamethasone Injection IP 4mg per ml|2 ml|6.00
+336|Allopurinol Tablets IP 100 mg|10's|11.00
+337|Clomiphene Citrate Tablets IP 50mg|10's|22.00
+338|Atropine Sulphate Injection IP 0.6mg per ml|1 ml|2.00
+341|Carboxymethylcellulose Sodium Eye Drops IP 0.5% w/v|10 ml|26.40
+344|Ciprofloxacin Eye Drops IP 0.3% w/v|5 ml|7.00
+345|Gentamicin Eye Drops IP 0.3% w/v|10 ml|6.00
+351|Xylometazoline Nasal Drops IP 0.1%w/v|10 ml|13.20
+352|Bupivacaine Hydrochloride Injection IP 5 mg per ml|20 ml|39.00
+356|Lignocaine Injection IP 2% w/v|30 ml Vial|17.00
+357|Lignocaine and Adrenaline Injection IP (2%w/v and 1:80000)|30 ml Vial|22.00
+358|Propofol Injection IP 10 mg per ml|10 ml Vial|39.00
+359|Tetanus Vaccine IP|0.5 ml Ampoule|6.50
+360|Mifepristone Tablets IP 200 mg|1's|67.00
+362|Biphasic Isophane Insulin Injection IP (50:50) 40 IU per ml|10 ML Vial|88.00
+363|Insulin Glargine Injection IP 100 IU per ml|3 ml Cartridge|340.00
+366|Glipizide 5mg and Metformin Hydrochloride 500mg Tablets|10's|9.00
+367|Voglibose Tablets IP 0.3 mg|10's|15.40
+368|Gliclazide Extended release Tablets 60 mg|10's|44.00
+369|Acarbose Tablets IP 50 mg|10's|62.00
+371|Voglibose Tablets IP 0.2 mg|10's|12.10
+372|Metformin Hydrochloride Prolonged release Tablets IP 500 mg|10's|11.00
+373|Artesunate Injection IP 60 mg|1 vial|23.00
+375|Quinine Sulphate Tablets IP 300 mg|10's|31.00
+376|Imipenem 500mg and Cilastatin 500mg Injection IP Vial & Wfi|Vial & Wfi|330.00
+377|Clindamycin Capsules IP 300 mg|10's|90.00
+380|Clarithromycin Tablets IP 500 mg|4's|72.00
+381|Cefixime 200mg and Ofloxacin 200mg Tablets|10's|50.60
+382|Linezolid Tablets IP 600 mg|10's|165.00
+383|Cefpodoxime 200mg and Potassium Clavulanate 125mg Tablets|6's|72.00
+384|Itraconazole Capsules 100 mg|4's|24.20
+385|Cefixime 200mg and Potassium Clavulanate 125mg Tablets|10's|128.00
+386|Diethylcarbamazine Tablets IP 50 mg|30's|9.00
+387|Terbinafine Tablets IP 250mg|7's|41.00
+391|Moxifloxacin Tablets 400 mg|5's|66.00
+392|Griseofulvin Tablets IP 250 mg|10's|16.00
+393|Aciclovir Dispersible Tablets IP 800 mg|5's|44.00
+395|Cefuroxime Axetil 500mg and Potassium Clavulanate 125mg Tablets IP|6's|109.00
+396|Liposomal Amphotericin B Injection 50 mg per Vial|20 ml|2700.00
+400|Ketoconazole Tablets IP 200 mg|10's|28.00
+401|Amoxycillin 250mg and Potassium Clavulanate 125mg Tablets IP|6's|47.00
+402|Amoxycillin 875mg and Potassium Clavulanate 125mg Tablets IP|6's|77.00
+403|Clindamycin Injection IP 300mg per 2ml|2 ML|55.00
+404|Linezolid Infusion 600mg per 300ml|300 ml|121.00
+405|Ofloxacin Infusion IP 200 mg per 100 ml|100 ml|33.00
+407|Ivermectin Dispersible Tablets 12 mg|10's|23.10
+410|Trastuzumab Injection 440 mg With Wfi|1's|15000.00
+412|Azathioprine Tablets IP 50 mg|10's|45.00
+413|Methotrexate Tablets IP 7.5 mg|10's|25.00
+414|Tranexamic Acid 500mg and Mefenamic Acid 250mg Tablets|10's|82.00
+416|Prazosin Tablets IP 5 mg|15's|30.80
+417|Telmisartan 40mg and Amlodipine 5mg Tablets IP|15's|24.20
+418|Rosuvastatin Tablets IP 20 mg|10's|28.60
+419|Heparin Sodium 50IU and Benzyl Nicotinate 2mg Ointment|20 gm|40.00
+420|Atorvastatin 10mg and Clopidogrel 75mg Capsules|10's|38.50
+421|Nebivolol Tablets IP 5 mg|10's|25.00
+422|Torasemide Tablets IP 10mg|15's|17.00
+423|Bisoprolol Tablets 5 mg|10's|15.00
+424|Carvedilol Tablets IP 3.125 mg|10's|7.70
+425|Diltiazem Sustained Release Tablets 90 mg|10's|36.30
+426|Acenocoumarol Tablets IP 2 mg|30's|36.00
+427|S(-)Amlodipine Tablets IP 2.5 mg|10's|12.10
+428|Digoxin Tablets IP 0.25 mg|10's|9.00
+429|Atorvastatin 10mg and Fenofibrate 160mg Tablets IP|15's|30.00
+430|Amiodarone Tablets IP 200 mg|10's|59.00
+431|Ramipril 5mg and Hydrochlorothiazide 12.5mg Tablets IP|10's|14.00
+432|Olmesartan Medoxomil Tablets IP 40 mg|10's|36.30
+433|Isosorbide Mononitrate Sustained Release Tablets 30 mg|30's|70.00
+434|Propranolol Tablets IP 40 mg|10's|6.60
+435|Rosuvastatin 10mg and Fenofibrate 160mg Tablets IP|10's|34.10
+436|Telmisartan 40mg and Chlorthalidone 12.5mg Tablets|10's|22.00
+437|Nifedipine Prolonged release Tablets IP 20mg|10's|9.00
+438|Indapamide Tablets IP 1.5 mg|10's|26.00
+439|Olmesartan Medoxomil 40mg and Hydrochlorothiazide 12.5mg Tablets IP|10's|30.00
+440|Metoprolol 50mg (Prolonged release) and Amlodipine Besilate 5mg Tablets IP|7's|11.00
+441|Losartan 50mg and Amlodipine 5mg Tablets IP|10's|22.00
+442|Fenofibrate Tablets IP 160 mg|10's|29.70
+443|Isosorbide Dinitrate Tablets IP 5 mg|50's|20.00
+444|Enalapril 10mg and Hydrochlorothiazide 25mg Tablets IP|30's|60.00
+445|Olmesartan 20mg and Amlodipine 5mg Tablets|10's|25.00
+446|Amlodipine 5mg and Hydrochlorothiazide 12.5mg Tablets|10's|16.50
+447|Moxonidine Tablets 0.3 mg|10's|47.00
+448|Ramipril 5mg and Amlodipine 5mg Tablets|10's|25.00
+449|Spironolactone Tablets IP 25 mg|15's|22.00
+450|Labetalol Hydrochloride Tablets IP 100mg|10's|45.00
+451|Streptokinase Injection IP 15,00,000 IU 10 ml & wfi|10 ml|995.00
+452|Warfarin Tablets IP 5 mg|10's|18.00
+453|Bisoprolol 5mg and Hydrochlorothiazide 6.25mg Tablets IP|10's|16.50
+454|Valsartan Tablets IP 80 mg|10's|36.30
+455|Verapamil Tablets IP 80 mg|10's|14.00
+456|Atorvastatin Tablets IP 40 mg|10's|22.00
+457|Torsemide Tablets IP 20 mg|10's|19.80
+458|Labetalol Injection IP 5 mg per ml|4 ml Ampoule|59.00
+459|Hydroquinone 2%w/w, Mometasone 0.1%w/w and Tretinoin 0.025%w/w Cream|20 gm|26.40
+461|Betamethasone Valerate 0.1%w/w and Neomycin Sulfate 0.5%w/w Cream|20 gm|17.60
+462|Betamethasone Valerate 0.12%w/w and Clioquinol 3%w/w Cream|30 GM|35.00
+463|Mupirocin Ointment IP 2 % w/w|5 gm|50.00
+465|Pantoprazole 40mg (Gastro-resistant) and Domperidone 30mg (Prolonged Release) Capsules IP|10's|22.00
+466|Ursodeoxycholic Acid Tablets IP 300 mg|10's|160.60
+467|Dicyclomine Hydrochloride 10mg and Mefenamic Acid 250mg Tablets IP|10's|13.20
+468|Bacillus Clausii Spores Suspension 2 Billion per 5ml|5 ML|15.00
+471|Oxetacaine, Aluminium Hydroxide and Magnesium Hydroxide Suspension|200 ML|46.00
+472|Esomeprazole 40mg (Enteric-Coated) and Domperidone 30mg (Sustained Release) Capsules|10's|22.00
+473|Pantoprazole 40mg (Enteric Coated) and Levosulpiride 75mg (Sustained Release) Capsules|10's|55.00
+474|Doxylamine Succinate 10mg and Pyridoxine Hydrochloride 10mg Tablets|30's|23.00
+475|Sucralfate Suspension 500mg per 5ml|200 ml|77.00
+476|Liquid Paraffin 1.25ml, Milk of Magnesia 3.75ml and Sodium Picosulphate 3.33mg Suspension per 5ml|170 ml Bottle|57.00
+477|Chlordiazepoxide 5mg and Clidinium Bromide 2.5mg Tablets|10's|9.00
+478|Sodium Picosulphate Tablets 10 mg|10's|11.00
+479|Sorbitol 7.15g and Tricholine Citrate 550mg per 10ml Solution|200 ML|40.00
+480|Esomeprazole 40mg (Enteric-coated) and Levosulpiride 75mg (Sustained release) Capsules|10's|66.00
+481|Rifaximin Tablets 400 mg|10's|200.00
+482|Rabeprazole 20mg (Enteric Coated) and Levosulpiride 75mg (Sustained Release) Capsules|10's|36.00
+483|Loperamide Capsules IP 2 mg|10's|7.70
+484|Esomeprazole Tablets IP 40 mg|10's|20.90
+485|Promethazine Tablets IP 25 mg|10's|7.00
+486|Pancreatin 170mg and Activated Dimethicone 80mg Tablets|10's|55.00
+487|Dicyclomine Hydrochloride 10mg and Activated Dimethicone 40mg per 5 ml Suspension|30 ML|17.00
+488|Lansoprazole Capsules IP 15 mg|10's|20.00
+489|Sulfasalazine Gastro-resistant Tablets 1000mg|10's|77.00
+491|Itopride Tablets IP 50 mg|10's|36.00
+492|Sulfasalazine Delayed Release Tablets 500mg|10's|26.00
+495|Ferric Ammonium Citrate 160mg, Cyanocobalamin 7.5mcg and Folic Acid 0.5mg Syrup per 15ml|200 ML|35.00
+496|Dydrogesterone Tablets IP 10 mg|10's|350.00
+497|Combipack of Mifepristone Tablets IP 200mg (1 Tablet) & Misoprostol Tablets IP 200mcg (4 Tablets)|1's|74.00
+498|Ferrous Ascorbate 100mg and Folic Acid 1.5mg Tablets|10's|23.10
+499|Norethisterone Tablets IP 5 mg|10's|14.00
+500|Levo-Thyroxine Sodium Tablets IP 100 mcg|100's|64.00
+501|Betamethasone Sodium Phosphate Tablets IP 0.5 mg|20's|8.00
+502|Deflazacort Tablets 6 mg|6's|14.30
+503|Methylprednisolone Sodium Succinate Injection 1000mg Vial & Wfi|Vial & Wfi|317.00
+504|Nandrolone Decanoate Injection IP 25 mg per ml|1 ML|20.00
+505|Carbimazole Tablets IP 10 mg|100's|77.00
+506|Levo-Thyroxine Tablets IP 50 mcg|100's|45.00
+507|Carbimazole Tablets IP 5 mg|10's|11.00
+508|Levetiracetam Tablets IP 500 mg|10's|68.20
+509|Hydroxychloroquine Tablets IP 200 mg|10's|36.00
+510|Paracetamol 325mg and Tramadol 37.5mg Tablets|10's|13.20
+511|Paracetamol Tablets IP 650 mg|15's|15.00
+512|Aceclofenac 100mg, Paracetamol 325mg and Serratiopeptidase 15mg Tablets|10's|19.00
+513|Piroxicam Capsules IP 20 mg|10's|9.00
+514|Chymotrypsin and Trypsin (1:6 ) Tablets 100K AU|20's|50.00
+515|Mefenamic Acid Suspension 100mg per 5ml|60 ml|18.00
+516|Aceclofenac Sustained Release Tablets 200mg|10's|20.00
+517|Thiocolchicoside 4mg and Aceclofenac 100mg Tablets|10's|50.00
+518|Baclofen Tablets IP 10 mg|10's|11.00
+519|Ketorolac Tromethamine Tablets IP 10mg|10's|10.00
+521|Tramadol Prolonged Release Tablets IP 100 mg|10's|35.00
+522|Alfacalcidol Soft Gelatin Capsules 0.25 mcg|10's|22.00
+523|Naproxen Tablets IP 500 mg|15's|48.00
+525|Diclofenac 1.16%w/w, Linceed Oil 3%w/w, Methyl Salicylate 10%w/w and Menthol 5%w/w Gel|30 GM|24.00
+528|Paracetamol 325mg, Phenylephrine 10mg and Chlorpheniramine 2mg Tablets|10's|22.00
+529|Levosalbutamol 1.25mg and Ipratropium 500mcg Respules|3 ml|9.00
+530|Formoterol 6mcg and Budesonide 200mcg Rotacaps|30's|85.00
+532|Salmeterol 50mcg and Fluticasone 250mcg Rotacaps|30's|120.00
+534|Levo Salbutamol 200 mcg and Beclomethasone 200 mcg Respicaps in Mono pack|30's|0.00
+537|Ambroxol Hydrochloride 15 mg, Guaifenesin 50 mg and Levosalbutamol Sulphate 1 mg Syrup|100 ml Bottle|23.00
+539|Acetylcysteine Tablets 600 mg|10's|32.00
+540|Levosalbutamol 1.25mg and Budesonide 1mg Respules|2 ML|27.50
+541|Acebrophylline Capsules 100 mg|10's|22.00
+542|Saline Nasal Drops (Sodium Chloride 0.65% w/v)|20 ml|12.00
+543|Menthol (55 mg ± 5.) Cinnamon (12.5 mg ± 2) and Pine Oil (112.5 mg ± 1) Soft Capsules|10's|25.00
+544|Fluticasone Propionate Respules 0.5mg per 2ml|2 ML|17.00
+555|Doxofylline Tablets IP 400 mg|10's|17.00
+556|Montelukast Sodium 10mg and Fexofenadine Hydrochloride 120 mg Tablets|10's|44.00
+558|Azelastine Hydrochloride 140mcg and Fluticasone Propionate 50mcg Nasal Spray|70 MD|190.00
+559|Salbutamol 2mg and Theophylline 100mg Tablets|30's|0.00
+560|Fluticasone Propionate Nasal Spray IP 50 mcg|100 MD|80.00
+561|Levosalbutamol Syrup 1mg per 5ml|100 ML|13.20
+562|Loratadine Tablets IP 10mg|10's|10.00
+563|Oxymetazoline Hydrochloride Nasal Drops IP 0.5 mg per ml|10 ML|15.40
+564|Tiotropium Bromide 18mcg and Formoterol Fumarate Dihydrate 12mcg Rotacaps|15's|75.00
+565|Tiotropium Bromide 18mcg, Formoterol Fumarate Dihydrate 12mcg and Ciclesonide 400mcg Rotacaps|15's|150.00
+566|Ipratropium Bromide Respirator Solution 250mcg|15 ML|28.00
+567|Salbutamol 100mcg and Ipratropium 20mcg Inhaler|200 MDI|110.00
+568|Salmeterol 25mcg and Fluticasone Propionate 250mcg Inhaler IP|100 MD|250.00
+569|Sildenafil Tablets IP 50 mg|4's|9.90
+570|Tadalafil Tablets IP 20 mg|4's|16.50
+571|Tamsulosin Hydrochloride (Modified Release) 0.4mg and Dutasteride 0.5mg Tablets|15's|26.40
+574|Rabies Vaccine, Human IP|1 ml vial with diluent in Mono pack|295.00
+580|Ginseng, Multivitamins and multiminerals Capsules|10's|33.00
+581|Calcium Carbonate 500mg, Calcitriol 0.25mcg and Zinc 7.5mg Capsules|10's|19.80
+582|Vitamins A,C,D,E,And B Complex and Minerals Syrup|200 ML|47.00
+583|Cyproheptadine Tablets IP 4 mg|10's|4.00
+585|Cholecalciferol Granules 60000 IU per gm|1 Sachet|9.90
+586|Methylcobalamin 1500mcg, L-Carnitine L-Tartrate 500mg and Folic Acid 1.5mg Tablets|10's|110.00
+588|Vitamin E Softgel Capsules 400 mg|10's|22.00
+589|Calcium 500mg and Calcitriol 0.25mcg Tablets|15's|18.00
+590|Multivitamins with Amino acid & Inositol injection|5ml Vial|0.00
+591|Methylcobalamin Injection 500 mcg|1 ML|7.00
+592|L-Lysine + Multivitamins (Vit-B1,B2,B3,B5,B6) Syrup|200 ML|52.00
+593|Folic Acid 15mg, Cyanocobalamine 500mcg and Nicotinamide 200mg Injection|10 ML|40.00
+594|Dextrose Monohydrate IP Powder|75 gm|23.00
+595|Thiamine 100mg, Pyridoxine Hydrochloride 100mg and Cyanocobalamin 1000mcg per 3 ml Injection|3 ml|8.00
+597|Pyridoxine Tablets IP 50 mg|10's|9.00
+598|Pregabalin 75mg and Methylcobalamin 750mcg Tablets|10's|38.00
+599|Pregabalin Tablets 75 mg|10's|24.20
+601|Disulfiram Tablets IP 500 mg|4's|7.00
+603|Cetirizine Dihydrochloride 5mg, Phenylephrine Hydrochloride 10mg and Paracetamol 325mg Tablets|10's|18.70
+608|Betamethasone Dipropionate 0.05% w/w and Salicylic Acid 3% w/w Ointment|20 gm|17.00
+609|Silver Nitrate 0.20% w/w and Chlorhexidine Gluconate 0.20% w/w Cream|15 Gms Tube|25.00
+610|Paracetamol 125mg, Phenylephrine Hydrochloride 5mg and Cetirizine Dihydrochloride 2mg Suspension|60 ML|15.00
+611|Cyproheptadine Hydrochloride Syrup IP 2mg|200 ml|30.00
+612|Povidone-Iodine Powder 5% W/W|10 gm Container|19.00
+613|Diclofenac Potassium 50mg, Paracetamol 325mg and Serratiopeptidase 10mg Tablets|10's|19.80
+614|Paradichlorobenzene 2%w/v, Benzocaine 2.7%w/v, Chlorbutol 5%w/v and Turpentine Oil 15%w/v Ear Drops|10 ml|13.00
+625|Bromhexine Hydrochloride 8mg and Phenylephrine Hydrochloride 5mg Tablets|15's|13.00
+626|Ketoconazole Shampoo 2% W/V|100 ml Bottle|62.00
+627|Etophylline 115mg and Theophylline 35mg Prolonged Release Tablets IP|10's|8.00
+628|Etophylline 231mg and Theophylline 69mg Prolonged Release Tablets IP|10's|14.30
+629|Inhalent Softgel Capsules (Camphor 25mg, Chlorothymol 5mg, Eucalyptol 130mg, Menthol 55mg, Turpineol 110mg)|10's|28.00
+630|Liquid Paraffin 3.75ml and Milk of Magnesia 11.25ml per 15ml Suspension|170 ml Bottle|37.00
+631|Etamsylate Tablets 500 mg|10's|13.00
+632|Etamsylate Tablets 250 mg|10's|9.00
+633|Adapalene 0.1%w/w and Clindamycin Phosphate 1%w/w Gel|15 gm tubes|32.00
+634|Clobetasol Propionate 0.05%w/w, Neomycin 0.50%w/w, Miconazole 2%w/w and Chlorocresol 0.10%w/w Cream|20 gms.|28.60
+637|Aceclofenac 100mg, Paracetamol 325mg and Chlorzoxazone 250mg Tablets|10's|16.00
+639|Terbutaline Sulphate 1.25mg, Bromhexine 4mg, Guaiphenesin 50mg and Menthol 2.5mg Syrup per 5ml|100 ML|24.20
+640|Nimesulide Gel 1% W/W|20 gm Tube|16.00
+643|Paracetamol 125mg, Chlorpheniramine 1mg and Sodium Citrate 60mg Syrup in Flavour base|60 ml Bottle|18.00
+644|Phenylephrine Hydrochloride 5mg and Chlorpheniramine Maleate 2mg Drops|15 ml Bottle|20.00
+645|Nimesulid 100mg, Paracetamol 325mg and Chlorzoxazone 375mg Tablets|10's|20.00
+648|Diclofenac Dithylamine 1.16%w/w, Linseed Oil 3%w/w, Methyl Salicylate 10%w/w and Menthol 5%w/w Spray|35 gm|55.00
+649|Dicyclomine Hydrochloride 10mg and Simethicone 40mg Oral Drops|10 ml Bottle|10.00
+650|Mefenamic Acid 500mg and Paracetamol 325mg Tablets|10's|17.00
+655|Pepsin 7.5mg and Fungal Diastase Enyme 12.5mg Syrup per 5ml (Mix Fruit Flavour)|200 ml|48.00
+656|Diastase and Pepsin Enzyme Drops|15 ml|18.00
+658|Chlorhexidine Gluconate 0.3%v/v and Cetrimide 0.6%w/v Antiseptic Liquid|100 ML|12.00
+661|Gama Benzene Hexachloride 1%w/v and Cetrimide 0.1%w/v lotion|100 ml|55.00
+664|Mouth Ulcer Gel (Choline Salicylate Sodium 9% W/V, Benzalkonium Chloride 0.01% W/W)|10 gm|15.00
+665|Vitamin B Complex and Ascorbic Acid Capsules|10's|17.00
+666|Pheniramine Maleate Injection IP 22.75 mg|2 ML|4.00
+668|Multivitamin Drops|15 ml|18.00
+669|Cefuroxime Axetil Oral Suspension 125mg per 5ml|30 ML|66.00
+670|Glucosamine 750mg, Diacerein 50mg and Methylsulfonylmethane 250mg Tablets|10's|49.50
+671|Glucosamine 500mg and Diacerein 50mg Tablets|10's|55.00
+672|Mometasone Furoate Cream IP 0.1%w/w|15 gm|18.00
+673|Biotin Tablets 10mg|10's|34.00
+676|Triamcinolone Acetonide Mouth Ulcer Gel 0.1% w/w|10 gm|49.00
+677|Flupentixol Tablets 0.5 mg|10's|11.00
+679|Nalidixic Acid Tablets IP 500 mg|10's|17.00
+680|Finasteride Tablets IP 5mg|10's|44.00
+681|Phenazopyridine Hydrochloride Tablet 100mg|10's|0.00
+682|Rabeprazole 20mg and Domperidone 10mg Capsules|10's|22.00
+683|Rabeprazole Sodium (Gastro-resistant) 20mg and Itopride Hydrochloride Prolonged release 150mg Capsules IP|10's|40.00
+685|Pantoprazole Sodium 40 mg (Enteric Coated) and Itopride Hydrochloride 150 mg (Sustained Release) Capsules|10's|50.00
+686|Magaldrate 400mg and Simethicone 20mg Oral Suspension IP per 5ml|170 ml|42.00
+687|Lactulose 10gm per 15ml|200 ml|120.00
+689|Clotrimazole Vaginal Tablets IP 100mg|10's|15.00
+690|Timolol Maleate Eye Drops IP 0.5 %|5 ml Vial|21.00
+691|Ofloxacin Eye Drops IP 0.3% w/v|10 ml|11.00
+692|Olopatadine Hydrochloride Ophthalmic Solution IP 0.1% w/v|10 ml Vial|45.00
+693|Tropicamide Eye Drops IP 1% W/V|5 ml Vial|30.00
+696|Polymyxin B Sulphate 5000IU, Chloramphenicol 4mg and Dexamethasone 1mg Eye/Ear Drops|5 ml|42.00
+697|Sulphacetamide Eye Drop IP 10 % w/v|10 ml|12.00
+699|Acyclovir Eye Ointment IP 3% W/W|5 gm|25.00
+701|Pilocarpine Eye Drops IP 2% W/V|10 ml Vial|0.00
+704|Cephalexin Dry Syrup 125mg per 5ml|30 ml|19.00
+705|Levofloxacin Infusion IP 500 mg per 100 ml|100 ML|36.00
+707|Piroxicam Dispersible Tablets 10 mg|10's|10.00
+708|Piroxicam Dispersible Tablets 20 mg|10's|21.00
+709|Piroxicam with bezyl alcohol Injection 20 mg|1 ml|6.00
+710|Piroxicam with bezyl alcohol Injection 40 mg|2 ml|12.00
+712|Paracetamol Oral Suspension IP 250mg per 5ml|60 ml|21.00
+713|Glibenclamide 5mg and Metformin Hydrochloride 500mg Tablets IP|10's|12.00
+715|Glycerin IP 98%W/W|50 GM|22.00
+717|Etodolac Tablets IP 300mg|10's|37.40
+718|Escitalopram Oxelate 10mg and Clonazepam 0.5mg Tablets IP|10's|15.00
+720|Ringer Lactate Infusion 500 ml in FFS Bottle|Bottle|24.00
+722|Water for Injection amp polypack 5 ml|5 ml|1.50
+723|Water for Injection amp polypack 10ml|10 ml|2.00
+725|Dextrose Intravenouse Infusion IP 5% w/v|500 ml|20.00
+726|Dextrose Injection IP 10% w/v|500 ml|16.50
+728|Dextrose 5%w/v and Sodium Chloride 0.9%w/v Injection IP|500 ml|20.00
+732|Sodium Chloride Injection IP 0.9%W/V IV Fluid Plastic Container|100 ml|15.00
+733|Progesterone Sustained Release Tablets 200 mg|10's|163.00
+734|Dehydroepiandrosterone (Micronized) 25 mg Capsule|10's|70.00
+736|Megestrol Acetate Tablets IP 40mg|10's|140.00
+739|Cefuroxime Axetil Tablets IP 125mg|6's|35.00
+740|Clarithromycin Tablets IP 250 mg|10's|82.00
+741|Cefpodoxime Proxetil Dispersible Tablets 50 mg|10's|29.00
+746|Valganciclovir Hydrochloride Tablets USP 450 mg|10's|1740.00
+747|Glimepiride Tablets IP 3mg|10's|6.60
+748|Glimepiride Tablets IP 4mg|10's|8.00
+752|Clotrimazole Powder 1% 100 gm Powder|100 gm|60.50
+753|Clotrimazole 1%w/v and Beclometasone Dipropionate 0.025%w/v Lotion|15 ml|28.00
+754|Clotrimazole 1%w/w and Beclomethasone Dipropionate 0.025%w/w Cream|15 gm|13.20
+757|Cefuroxime Injection IP 1500mg Vial & Wfi|Vial & Wfi|70.00
+759|Rosuvastatin Tablets IP 10mg|15's|18.70
+762|Nortriptyline Tablets IP 25mg|10's|16.00
+764|Etizolam Tablets IP 0.5mg|10's|9.90
+766|L-Methylfolate calcium 7.5mg Tablet|10's|59.00
+767|Metformin Hydrochloride 1000mg (Prolonged Release) and Glimepiride 2mg Tablets IP|10's|36.30
+768|Acetazolamide Tablets IP 250mg|10's|18.00
+769|Acetylsalicylic Acid (Aspirin) Gastro-resistant Tablets IP 325mg|14's|8.00
+772|Adenosine Injection IP 3mg per ml|2 ml|25.00
+779|Alpha Lipolic Acid 100mg, Vitamin D3 1000IU, Folic Acid 1.5mg, Pyridoxine 3mg and Methylcobalamin 1500mcg Tablets|10's|48.00
+781|Alprazolam 0.25mg and Fluoxetine 20mg Tablets|10's|14.00
+784|Amisulpride Tablets IP 50mg|10's|31.00
+785|Amitriptyline Hydrochloride Tablets IP 25mg|15's|8.80
+786|Amitriptyline Hydrochloride Tablets IP 10mg|10's|6.60
+788|Anastrozole Tablets IP 1mg|10's|78.00
+790|Aspirin Enteric Coated Tablets IP 75mg|14's|3.00
+791|Atenolol 25mg and Amlodipine 5mg Tablets IP|14's|16.00
+793|Atenolol Tablets IP 25mg|14's|6.00
+796|Aspirin Gastro-resistant 75mg and Atorvastatin 10mg Capsules IP|10's|16.00
+797|Atracurium Besylate Injection I.P 25mg per 2.5ml|2.5 ML|23.50
+800|Bacitracin 250 IU, Neomycin 5mg, Sulphacetamide 60mg Dusting Powder|10 gm Powder|25.00
+804|Betamethasone Injection IP 4 mg per ml|1 ml|3.00
+806|Bicalutamide Tablets IP 50mg|10's|137.00
+807|Biphasic Isophane Insulin Injection IP 100 IU/ml (30:70) (30% Soluble Insulin and 70% Isophane Insulin)|3 ml Catridge|165.00
+809|Bortezomib Injection IP 3.5 mg|Vial|990.00
+811|Bromfenac Sodium Eye Drop 0.09%w/v|5 ml|66.00
+812|Bromocriptine Mesylate Tablets IP 2.5mg|10's|88.00
+814|Cabergoline Tablets IP 0.5mg|4's|170.00
+815|Calcitriol Capsules IP 0.25mcg|10's|29.70
+816|Calcium Acetate Tablets 667mg|10's|28.00
+817|Calcium Carbonate 1250mg, Vitamin D3 250IU, Magnesium Oxide 40mg, Manganese Sulphate 1.8mg and Zinc 7.5mg Tablets|10's|14.30
+818|Calcium Gluconate Injection IP 10 % w/v|10 ml|5.00
+821|Carvedilol Tablets IP 6.25mg|10's|7.70
+829|Chloramphenicol Eye Ointment IP 1%w/w|5 gm|17.00
+830|Chlordiazepoxide 10mg and Trifluoperazine 1mg Tablets|10's|15.00
+832|Chlorthalidone Tablets IP 12.5mg|10's|14.30
+833|Cholecalciferol (Vitamin D3) Drops 800 IU per ml|15 ml|27.00
+834|Cholecalciferol (Vitamin D3) Drops 400 IU per ml|15 ml|20.00
+835|Glucosamine Sulphate 500mg and Chondroitin 400mg Tablets|10's|85.00
+837|Cilnidipine Tablets IP 20mg|10's|19.80
+838|Cilostazol Tablets IP 50mg|10's|66.00
+840|Citicoline Tablets IP 500mg|10's|221.10
+844|Clonazepam Tablets IP 1mg|10's|8.80
+850|Cyclosporin capsules IP 50mg|5's|120.00
+851|Dacarbazine Injection IP 200mg|VIAL|188.00
+853|Daunorubicin Hydrochloride Injection IP 20mg|vial|204.00
+860|Dextromethorphan Hydrobromide Syrup IP 13.5mg per 5ml|50 ml|23.00
+864|Dextrose Injection IP 25%w/v|100 ml|12.00
+865|Diacerein Capsules IP 50mg|10's|45.00
+866|Diazepam Injection IP 5mg per ml|2 ML|8.00
+868|Dicyclomine Hydrochloride (Dicycloverine) Injection IP 10mg per ml|2 ml|4.00
+875|Donepezil Hydrochloride Tablets IP 10mg|10's|25.00
+878|Drotaverine Hydrochloride 80mg and Mefenamic Acid 250mg Tablets|10's|20.00
+879|Drotaverine Hydrochloride Tablets IP 40mg|10's|8.00
+881|Ebastine Tablets IP 10mg|10's|20.00
+882|Efavirenz Tablets IP 600mg|30's|510.00
+884|Erythromycin Estolate Suspension 125mg per 5ml|60 ml|18.70
+885|Ethinylestradiol 0.05mg and Levonorgestrel 0.25mg Tablets IP|21's|30.00
+888|Febuxostat Tablets 40mg|10's|20.00
+889|Febuxostat Tablets 80mg|10's|34.00
+897|Formoterol 6mcg and Fluticasone Propionate 250mcg Inhaler|120 MDI|290.00
+899|Frusemide 20mg and Spironolactone 50mg Tablets|10's|28.00
+900|Gabapentin 100mg and Methylcobalamin 500mcg Tablets|10's|36.30
+901|Gabapentin Capsules IP 300mg|10's|27.50
+904|Metformin Hydrochloride 500mg (Prolonged release) and Glimepiride 1mg Tablets IP|10's|17.60
+906|Glyceryl Trinitrate Controlled Release Tablets 2.6mg (Nitroglycerin Controlled Release Tablets)|30's|50.00
+910|Human Chorionic Gonadotrophin IP 5000 IU (Powder for injection with solvent)|Vial and solvent|215.00
+911|Menotrophin for Injection IP 75IU (Human Menopausal Gonadotrophin)|Vial and solvent|350.00
+912|Hydrochlorothiazide Tablets IP 12.5mg|10's|6.00
+913|Hydrocortisone Sodium Succinate Injection IP 100mg|Vial|20.00
+915|Hydroxyzine Hydrochloride Tablets IP 10mg|10's|7.70
+916|Imatinib Mesylate Tablets IP 400mg|10's|225.00
+917|Imipramine Hydrochloride Tablets IP 25mg|10's|5.00
+920|Soluble Insulin Injection IP 100 IU per ml (R-DNA Origin)|3 ml Catridge|170.00
+922|Isopropyl Alcohol IP (70%) (Spirit)|100 ML bottle|40.00
+923|Isosorbidemononitrate Tablets IP 20mg|10's|8.00
+924|Isoxsuprine Hydrochloride Tablets IP 10mg|50's|45.00
+926|Ketoconazole Cream 2% w/w|15 gm Tube|19.80
+931|Lamotrigine Tablets 100mg|10's|44.00
+933|Leflunomide Tablets IP 20mg|10's|74.00
+934|Lenalidomide Capsules 10mg|10's|464.00
+935|Letrozole Tablets IP 2.5mg|10's|34.00
+936|Leuprolide Acetate Injections 3.75mg|1's|1800.00
+938|Levocarnitine Injections 1gm 5 ml|5 ml|70.00
+939|Levocarnitine Tablets 500mg|10's|56.00
+944|Levosalbutamol Inhaler 50mcg 200 Mdi|200 Mdi|83.00
+945|Levosulpiride Tablets 25mg|10's|11.00
+946|Lignocaine (Lidocaine) Hydrochloride Gel IP 2% W/V|20g|11.00
+947|Lithium Carbonate Prolonged Release Tablets IP 450mg|10's|20.00
+948|Lorazepam Tablets IP 1mg|10's|11.00
+949|Lorazepam Tablets IP 2mg|10's|12.00
+951|Lycopene with Multivitamins and Multi Minerals Syrup|200 ml|54.00
+954|Medroxyprogesterone Acetate Tablets IP 10mg|10's|26.00
+955|Mefenamic Acid 50mg and Paracetamol 125mg Suspension per 5ml|60 ml|11.00
+956|Mefloquine Hydrochloride Tablets IP 250mg|4's|114.00
+957|Memantine Hydrochloride Tablets IP 10mg|10's|25.00
+960|Metformin Sustained Release Tablets IP 850mg|10's|19.80
+965|Miconazole 2%w/w and Fluocinolone Acetonide 0.01%w/w Ointment|15 gm Tube|25.00
+968|Mirtazapine Tablets IP 15mg|10's|30.00
+972|Mycophenolate Mofetil Tablets IP 500mg|10's|180.00
+974|Natural Micronised Progesterone Capsules 100mg|10's|67.00
+975|Nebivolol 5mg and Hydrochlorothiazide 12.5mg Tablets|10's|66.00
+976|Nebivolol Tablets IP 2.5mg|10's|16.00
+978|Nepafenac Eye Drop 0.1% W/V|5 ml|66.00
+986|Nitrazepam Tablets I.P 10mg|10's|9.00
+987|Nitrofurantoin Tablets I.P 100mg|10's|17.60
+990|Olanzapine Tablets IP 10mg|10's|8.80
+991|Olanzapine Tablets IP 5mg|10's|6.60
+992|Olmesartan Medoxomil Tablets IP 20mg|10's|17.00
+993|Ondansetron Oral Solution IP 2 mg per 5ml|30 ml|15.00
+994|Oxaliplatin Injections IP 50mg|Vial|475.00
+996|Oxcarbazepine Tablets IP 300mg|10's|40.00
+997|Paclitaxel Injection IP 100mg (6mg/ml)|Vial|540.00
+999|Paroxetine Prolonged Release Tablets IP 37.5mg|10's|64.00
+1003|Permethrin Cream 5% w/w|30 gm|24.00
+1005|Phenobarbitone Tablets IP 30mg|30's|17.00
+1008|Phytomenadione Injection (Vitamin K1) IP 1mg per 0.5ml|0.5 ml Ampoule|11.00
+1009|Pioglitazone Tablets IP 15 mg|10's|8.80
+1011|Piracetam Syrup 500mg per 5ml|100 ml|65.00
+1012|Piracetam Tablets 400mg|10's|18.70
+1024|Promethazine Injection IP 25 mg per ml|2 ml|3.00
+1026|Propranolol Tablets IP 10mg|10's|5.50
+1029|Pyrazinamide Tablets IP 1000mg|10's|0.00
+1031|Quetiapine Fumarate Tablets IP 200mg|10's|65.00
+1032|Quetiapine Tablets IP 100mg|10's|36.30
+1037|Erythropoietin Injection IP 4000 IU|Vial|297.00
+1038|Erythropoietin Injection IP 2000 IU|Vial|230.00
+1041|Risperidone 4mg and Trihexiphenidyl 2mg Tablets|10's|14.30
+1042|Risperidone Tablets IP 4mg|10's|9.00
+1044|Rosuvastatin Tablets IP 5mg|10's|13.20
+1049|Sertraline Tablets IP 50mg|10's|18.00
+1050|Sertraline Tablets IP 100mg|10's|22.00
+1051|Sertraline Tablets IP 25mg|10's|15.00
+1059|Sodium Valproate Enteric Coated Tablets IP 200mg|10's|17.00
+1060|Sodium Valproate Gastro-Resistant Tablets IP 300mg|10's|22.00
+1062|Sofosbuvir Tablets IP 400mg|28's in a bottle|4400.00
+1068|Sucralfate 1g and Oxetacaine 10mg Suspension per 10ml|100 ml|68.00
+1069|Sulphacetamide Sodium Eye Drop IP 20% w/v|10 ml|12.00
+1072|Tamsulosin Hydrochloride Prolonged Release Capsules IP 0.4mg|10's|22.00
+1073|Telmisartan 40mg and Metoprolol 25mg Tablets|10's|30.00
+1074|Telmisartan 80mg and Hydrochlorothiazide 12.5mg Tablets IP|10's|23.00
+1075|Teneligliptin Tablets IP 20mg|10's|20.00
+1076|Tenofovir Disoproxil Fumarate Tablets IP 300 mg|10's|196.00
+1081|Tizanidine Tablets I.P 2mg|10's|10.00
+1087|Trihexyphenidyl Hydrochloride Tablets IP 2mg (Benzhexol Hydrochloride Tablets IP 2mg)|10's|6.60
+1088|Trimetazidine Hydrochloride Modified Release Tablets 35 mg|10's|22.00
+1091|Vecuronium Bromide Injection I.P 4mg|Vial|45.00
+1097|Vitamin A Capsule IP 25000 IU|30's|16.00
+1098|Metformin Hydrochloride 500mg (Sustained Release) and Voglibose 0.2mg Tablets|10's|15.40
+1099|Metformin Hydrochloride 500mg and Voglibose 0.3mg Tablets|10's|16.50
+1104|Zoledronic Acid Injection IP 4mg per Vial|Vial|165.00
+1105|Zolpidem Tablets IP 10mg|10's|18.00
+1106|Metoprolol Succinate 50mg (Extended Release) and Telmisartan 40mg Tablets|10's|31.90
+1108|Sildenafil Tablets IP 100 mg|4's|10.00
+1110|Clobazam Tablet IP 5mg|10's|15.00
+1111|Gabapentin 400mg and Nortriptyline 10mg Tablets|10's|55.00
+1112|Cinnarizine Tablets IP 25mg|10's|7.70
+1114|Moxifloxacin Hydrochloride Eye Drops IP 0.5% w/v|5 ml|14.30
+1123|Clomipramine Hydrochloride Sustained release Tablets 75mg|10's|55.00
+1124|Fluvoxamine Maleate Tablets IP 100mg|10's|74.00
+1125|Aripiprazole Tablets IP 5mg|10's|14.00
+1129|Teneligliptin 20mg and Metformin Hydrochloride 500mg (Sustained Release) Tablets IP|10's|30.00
+1130|Teneligliptin 20mg and Metformin Hydrochloride 1000mg (Sustained Release) Tablets IP|10's|40.00
+1131|Natural Micronised Progesterone Capsules 200mg|10's|125.00
+1135|Diacerein 50mg and Glucosamine Sulphate 750mg Tablets|10's|50.00
+1149|Lisinopril Tablets IP 10mg|15's|23.00
+1152|Carbamazepine Prolonged-release Tablets IP 200mg|10's|15.00
+1154|Diethylcarbamazine Citrate Tablets IP 100mg|30's|17.00
+1156|Metoprolol Succinate 25mg (Extended Release) and Amlodipine Besilate 5mg Tablets IP|7's|12.80
+1157|Doxylamine Succinate 20mg and Pyridoxine Hydrochloride 20mg Tablets|10's|15.00
+1162|Betamethasone Cream IP 0.1 % w/w|20 gm|9.90
+1164|Nandrolone Decanoate Injection IP 50 mg per ml|2 ml|40.00
+1166|Mefenamic Acid Tablets 250 mg|10's|10.00
+1167|Mefenamic Acid Tablets 500 mg|10's|17.00
+1168|Ketorolac Injection IP 30mg per ml|1 ml|12.00
+1170|Acetylcysteine Injection 200 mg per ml|2 ml Ampoules|25.00
+1178|5-Flurouracil Injection 500mg|10 ml|11.50
+1181|Carboplatin Injection IP 150mg|15 ml Vial|412.50
+1182|Carboplatin Injection IP 450mg|45 ml Vial|1707.00
+1183|Cyclophosphamide Injection IP 500 mg|VIAL|35.00
+1186|Cyclosporin Capulses IP 25mg|5's|72.00
+1187|Cyclosporine Capsules IP 100 mg|5's|230.00
+1191|Glycopyrrolate Injection IP 0.2mg|1 ml|7.00
+1199|Hydroxyurea Capsules IP 500mg|10's|66.00
+1201|Ifosfamide Injection IP 1gm|VIAL|170.00
+1203|Protamine Sulphate Injection IP 10mg per ml|5 ml Vial/Ampoule|21.00
+1211|Docetaxel Injection IP 80 mg|VIAL|1800.00
+1212|Docetaxel Injection IP 120 mg|VIAL|2700.00
+1213|Erlotinib Tablets IP 150 mg|10's Bottle|700.00
+1214|Gefitinib Tablets IP 250 mg|10's|440.00
+1215|Pemetrexed Injection IP 100 mg|VIAL|810.00
+1216|Pemetrexed Injection IP 500 mg|VIAL|2310.00
+1217|Temozolomide Capsules IP 100mg|5's in Bottle|1463.00
+1218|Temozolomide Capsules IP 250 mg|5's|2685.00
+1219|Amino Acid Solution for IV|200 ml Glass Bottle|247.00
+1220|Oseltamivir Capsules IP 75mg|10's|190.00
+1221|Thyroxine Sodium Tablets IP 50mcg|100's in Bottle|55.00
+1222|Artemether 80mg and Lumefantrine 480mg Tablets|6's|30.00
+1223|Carbonyl Iron 50mg, Folic Acid 0.5mg and Zinc 61.8mg Capsules|15's|22.00
+1225|Orlistat Capsules 120 mg|10's|143.00
+1226|Triamcinolone Acetonide Injection IP 40mg per ml|1 ml Vial|50.00
+1227|Triamcinolone Tablets IP 4mg|10's|35.00
+1228|Gabapentin 300mg and Amitriptyline 10mg Tablets|10's|55.00
+1231|Vitamin E Acetate 200mg and Levocarnitine 150mg Tablets|10's|0.00
+1232|Noscapine Syrup 1.83mg per 5ml|50 ml|40.00
+1236|Albendazole Tablets IP 400mg|1's|3.30
+1237|Methyldopa Tablets IP 500 mg|10's|50.00
+1238|Prazosin Hydrochloride Sustained Release Tablets 2.5 mg|30's|60.00
+1240|Gliclazide 80mg and Metformin Hydrochloride 500mg Tablets|10's|28.60
+1241|Cefaclor Dispersible Tablets 250 mg|10's|180.00
+1246|Fluconazole Tablets IP 150 mg|1's|5.50
+1248|Haematinic Syrup of Iron 32mg, Folic Acid 0.5mg and Vitamin B12 7.5mcg|200 ml Bottle|42.00
+1251|Vitamin B6 (Pyridoxine Hydrochloride) Tablets IP 100mg|10's|22.00
+1252|Calcium Phosphate 82mg, Vitamin D3 200IU and Vitamin B12 2.5mcg Suspension|200 ml|36.00
+1254|Diphenhydramine 13-15mg, Ammonium Chloride 135-150mg, Sodium Citrate 57-85mg, Menthol 0.9-2.6mg Cough Syrup|100 ml Bottle|18.00
+1255|Acebrophylline 200mg (Sustained Release) and Montelukast 10mg Tablets|10's|55.00
+1257|Allylestrenol Tablets 5 mg|10's|33.00
+1261|Amiloride 2.5mg and Hydrochlorothiazide 25mg Tablet IP|10's|15.00
+1263|Ampicillin Capsules IP 500 mg|10's|40.00
+1281|Chlordiazepoxide Tablets IP 10 mg|10's|21.00
+1283|Chlorthalidone Tablets IP 6.25 mg|10's|10.00
+1284|Cilnidipine 10mg and Telmisartan 40mg Tablets|10's|24.20
+1285|Cinitapride Tablets 1 mg|10's|30.00
+1297|Ranitidine 150mg and Domperidone 10mg Tablets|15's|15.00
+1298|Donepezil Tablets IP 5 mg|10's|20.00
+1301|Drotaverine 80mg and Aceclofenac 100mg Tablets|10's|33.00
+1302|Duloxetine Gastro-resistant Tablets IP 20 mg|10's|27.00
+1306|Escitalopram Oxalate 5mg and Clonazepam 0.5mg Tablets IP|10's|14.30
+1307|Ethinylestradiol 0.03mg and Desogestrel 0.15mg Tablets|21's|90.00
+1308|Ethinylestradiol 0.03mg and Levonorgestrel 0.15mg Tablets IP|21's|35.00
+1310|Faropenem Tablets 200mg|6's|300.00
+1311|Fenofibrate Tablets IP 145 mg|10's|22.00
+1312|Flavoxate Tablets IP 200 mg|15's|60.00
+1315|Fluticasone Furoate Nasal Spray 27.5mcg|120 MDI|138.00
+1319|Gabapentin Tablets IP 100 mg|10's|15.40
+1328|Isoxsuprine Injection IP 5 mg|2 ml Vial|10.00
+1341|Mebendazole Tablets IP 100 mg|6's|9.00
+1342|Mebeverine Hydrochloride Tablets IP 200mg|10's|56.00
+1344|Meropenem 1000mg and Sulbactam 500mg Injection Vial & Wfi|Vial & Wfi|286.00
+1345|Meropenem Injection IP 500 mg Vial & Wfi|Vial & Wfi|165.00
+1348|Methylprednisolone Tablets IP 4mg|10's|16.50
+1353|Mirtazapine Tablets IP 7.5mg|10's|13.00
+1354|Modafinil Tablets IP 200mg|10's|84.00
+1359|Naproxen Tablets IP 250 mg|15's|23.00
+1367|Olmesartan 20mg, Amlodipine 5mg and Hydrochlorothiazide 12.5mg Tablets|10's|41.80
+1368|Olmesartan Medoxomil 20mg and Hydrochlorothiazide 12.5mg Tablets IP|10's|27.00
+1375|Phenobarbitone Tablets IP 60 mg|30's|28.00
+1382|Prasugrel Tablets IP 10 mg|10's|66.00
+1383|Pregabalin 75mg and Nortriptyline 10mg Tablets|10's|34.10
+1384|Quetiapine Tablets IP 25 mg|10's|11.00
+1392|Aspirin Gastro Resistant 75mg and Rosuvastatin 10mg Capsules IP|10's|37.00
+1393|Rosuvastatin 10mg and Clopidogrel 75mg Capsules|10's|42.00
+1396|Sertaconazole Nitrate Cream IP 2%w/w|15 gm|60.00
+1408|Tamsulosin 0.4mg and Finasteride 5mg Tablets|15's|38.50
+1409|Teicoplanin Injection IP 400mg|1 ml Vial|750.00
+1410|Telmisartan 40mg, Amlodipine 5mg and Hydrochlorothiazide 12.5mg Tablets|10's|20.90
+1411|Telmisartan 40mg and Chlorthalidone 6.25mg Tablets|10's|20.00
+1414|Terlipressin Injection 1000 mcg (1 mg/10ml)|10 ml Vial|225.00
+1417|Thiocolchicoside Capsules IP 4mg|10's|45.00
+1418|Tigecycline Injection IP 50 mg|5 ml Vial|660.00
+1427|Trypsin 48mg, Bromelain 90mg and Rutoside Trihydrate 100mg Tablets|10's|70.00
+1431|Valethamate Injection 8 mg per ml (For IM/IV use)|1 ml Ampoule|9.90
+1432|Tobramycin Eye Drops 0.3%w/v|5 ml Vial|25.00
+1435|Capecitabine Tablets IP 500mg|10's|250.00
+1437|Cefpodoxime Proxetil Oral Suspension IP 50mg|30 ml|30.00
+1438|Metformin Hydrochloride 500mg (Sustained Release), Glimepiride 2mg and Voglibose 0.2mg Tablets|10's|31.90
+1440|Janaushadhi Protein Powder|250g 1's Tin|200.00
+1441|Janaushadhi Nirmal (Nicotine Polacrilex Chewing Gum 2 mg)|1 x 9's (mono carton pack)|42.00
+1442|Janaushadhi Urja (Glucose Powder (Orange Flavour) 300 g)|300 g Box|70.00
+1443|Janaushadhi Urja (Glucose Powder (Orange Flavour) 100 g)|100 gm Tetra pack|30.00
+1445|Jan Pudina Soft Gel Capsules|10's|16.00
+1446|Janushadhi Madhurak (Stevia Natural Sweetener)|100 gm Plastic Jar|140.00
+1447|Janaushadhi Janani|250g 1's Tin|225.00
+1448|Lamotrigine Dispersible Tablets IP 100mg|10's|40.00
+1449|Enzyme syrup mixed fruit flavour|200 ml|48.00
+1450|Pyrantel Pamoate Oral Suspension IP 250mg per 5ml|10 ml|12.00
+1451|Theophylline Prolonged-release Tablets IP 400 mg|10's|30.00
+1452|Pyridoxine Hydrochloride Sustained release tablets 100mg|10's|35.00
+1453|Levetiracetam Oral Solution IP 100mg|100 ml|85.00
+1454|Terbutaline 1.25mg, Ambroxol 15mg, Guaiphenesin 50mg per 5ml Syrup with Menthol base|100 ml|32.00
+1455|L-Arginine Granules 3g|5 gm|16.00
+1456|Itraconazole Capsules 200 mg|4's|35.20
+1457|Luliconazole Cream IP 1% w/w|10 gms tube|24.20
+1458|Sodium Chloride Injection IP 0.9%w/v IV Fluid Plastic Container|500 ml|30.00
+1459|Janaushadhi Poshan (Malt based food, 500gm)|1's Screw Cap Plastic Jar|180.00
+1460|Insulin Pen|1's|0.00
+1461|Vildagliptin Tablets IP 50mg|15's|20.00
+1462|Vildagliptin 50mg and Metformin Hydrochloride 500mg Tablets IP|15's|30.00
+1463|Vildagliptin 50mg and Metformin Hydrochloride 1000mg Tablets IP|15's|35.00
+1464|Janaushadhi Protein Bar (35 gm)|1's Bar|45.00
+1465|Janaushadhi Immunity Bar (10 gm)|1's Bar|10.00
+1466|Janaushadhi Protein Powder (Vanilla) 250 gm|1's Tin 250g|200.00
+1467|Janaushadhi Protein Powder (Kesar Pista) 250 gm|1's Tin 250g|200.00
+1471|Janaushadhi Poshan (Malt based food with Cocoa, 500gm)|1's Screw Cap Plastic Jar|185.00
+1472|Janaushadhi Janani (Vanilla) 250 gm|1's Tin 250g|225.00
+1473|Hand Sanitizer 100 ml (Ethanol 70% v/v and Chlorhexidine Gluconate 0.5% w/v)|100 ml|40.00
+1474|Hand Sanitizer 500 ml (Ethanol 70% v/v and Chlorhexidine Gluconate 0.5% w/v)|500 ml|200.00
+1475|Hand Sanitizer 250 ml (Ethanol 70% v/v and Chlorhexidine Gluconate 0.5% w/v)|250 ml|100.00
+1476|Hydroxychloroquine Tablet IP 400 mg|10's|82.00
+1479|Canagliflozin Tablets 100 mg|10's|186.00
+1480|Metformin 500mg (Prolonged release) and Glimepiride 0.5mg Tablets IP|10's|17.60
+1481|Metformin 1000mg (Prolonged release) and Glimepiride 1mg Tablets IP|10's|28.60
+1482|Metformin 1000mg (Prolonged release) and Glimepiride 3mg Tablets IP|15's|41.80
+1483|Metformin 1000mg (Prolonged release) and Glimepiride 4mg Tablets IP|15's|46.00
+1485|Mesalazine Prolonged release Tablets IP 1200 mg|10's|138.00
+1487|Selenium Sulphide Shampoo 2.5% w/v|120 ml|186.00
+1488|Acarbose Tablets IP 25 mg|10's|40.00
+1489|Acebrophylline 100mg and Acetylcysteine 600mg Tablets|10's|60.00
+1490|Acebrophylline Sustained Release Tablets 200 mg|10's|30.00
+1492|Aceclofenac 200mg (Sustained release) and Rabeprazole Sodium 20mg (Enteric-coated) Capsules|10's|30.00
+1493|Aceclofenac 100mg, Paracetamol 325mg and Thiocolchicoside 4mg Tablets|10's|55.00
+1495|Aceclofenac 100mg, Paracetamol 325mg and Tizanidine 2mg Tablets|10's|20.00
+1496|Aciclovir Dispersible Tablets IP 400 mg|5's|30.00
+1497|Acitretin Capsules IP 25 mg|10's|250.00
+1498|Acotiamide Tablets 100mg|10's|73.00
+1499|Adalimumab Injection 40mg per 0.8 ml (For subcutaneous use only)|0.8 ml in 1 prefilled syringe|13000.00
+1500|Aflibercept Intravitreal Injection 40 mg per ml|3 ml Ampoule in Mono Carton|0.00
+1501|Amantadine Hydrochloride Capsules IP 100 mg|10's|50.00
+1502|Amiodarone Tablets IP 100 mg|10's|31.00
+1503|Amlodipine Besilate 5mg and Bisoprolol Fumarate 5mg Tablets|10's|19.80
+1504|Amorolfine Cream 0.25% w/w|30 g|55.00
+1505|Amoxycillin 400mg and Potassium Clavulanate 57mg Oral Suspension IP|30 ml|50.00
+1506|Amoxycillin 80mg and Potassium Clavulanate 11.4mg Oral Suspension IP|10 ml|35.00
+1507|Amoxycillin 250mg, Dicloxacillin 250mg and Lactic Acid Bacillus 2.5 billion Capsules|10's|48.00
+1508|Ampicillin 250mg and Cloxacillin 250mg Capsules|10's|30.00
+1509|Ampicillin 250mg and Di-Cloxacillin 250mg Capsules|10's|45.00
+1510|Anti-D (Rho) Immunoglobulin (Monoclonal) 300 mcg|1 ml Vial|0.00
+1511|Antioxidant Capsules|30's|65.00
+1512|Apremilast Tablets IP 10mg|10's|80.00
+1513|Apremilast Tablets IP 20mg|10's|100.00
+1514|Apremilast Tablets IP 30mg|10's|138.00
+1515|Atorvastatin 10mg and Aspirin 150mg Capsules|15's|26.00
+1516|Atorvastatin 20mg and Clopidogrel 75mg Capsules|10's|38.50
+1517|Atorvastatin 20mg, Clopidogrel 75mg and Aspirin 75mg Capsules|10's|44.00
+1518|Azilsartan 40mg and Chlorthalidone 6.25mg Tablet|10's|65.00
+1519|Azilsartan Medoxomil 40mg and Chlorthalidone 12.5mg Tablets|10's|73.00
+1520|Azilsartan Medoxomil Tablets IP 40mg|10's|64.00
+1521|Azithromycin Oral Suspension IP 200 mg|15 ml|22.00
+1522|Beclomethasone 0.025%w/w and Clotrimazole 1%w/w Cream|20 g|25.00
+1523|Beclomethasone 0.025%w/v and Clotrimazole 1%w/v Lotion|30 ml|30.00
+1524|Bepotastine Besilate Tablets 10mg|10's|65.00
+1525|Betahistine Tablets IP 16 mg|15's|16.00
+1526|Betahistine Tablets IP 24 mg|15's|24.00
+1527|Betamethasone Valerate 0.12%w/w, Gentamicin 0.1%w/w and Miconazole Nitrate 2%w/w Cream|20 g|16.00
+1528|Bilastine Tablets 20 mg|10's|35.00
+1529|Bimatoprost Ophthalmic Solution 0.01% w/v|3 ml|0.00
+1530|Bimatoprost Ophthalmic Solution 0.03% w/v|3 ml|170.00
+1531|Bisoprolol Fumarate Tablets 2.5 mg|10's|11.00
+1532|Botulinum Toxin Type A 100 IU|1 Vial|0.00
+1533|Brimonidine Tartrate 0.2%w/v and Timolol Maleate 0.5%w/v Ophthalmic Solution|5 ml|50.00
+1534|Brimonidine Tartrate Eye drops IP 0.1% w/v|5 ml|20.00
+1536|Calcitriol 0.25mcg and Calcium 200mg Capsules|15's|35.00
+1537|Calcium and Vitamin D3 Capsules|10's|33.00
+1538|Calcium Citrate Malate 250mg, Calcitriol 0.25mcg and Vitamin K2-7 50mcg Tablets|10's|40.00
+1539|Calcium Gluconate 50mg and Calcium Lactobionate 87.5mg Injection|10 ml|0.00
+1540|Calcium (from Coral Grains) 500mg and Vitamin D-3 500IU Tablets|10's|30.00
+1541|Calcium 1250mg, Calcitriol 0.25mcg and Vitamin K2-7 45mcg Capsules|10's|50.00
+1542|Calcium, Magnesium, zinc and Vitamin D-3 Oral Suspension|200 ml|38.00
+1543|Camylofin Dihydrochloride 25mg and Paracetamol 300mg Tablets|10's|20.00
+1544|Coenzyme Q10 100mg, Lycopene 4000mcg, Selenium 70mcg and Omega-3 Fatty Acids (EPA 90mg and DHA 60mg) Capsules|10's|150.00
+1545|Carboxymethlycellulose Eye drops IP 1% w/v|10 ml|30.00
+1548|Cefixime Oral Suspension IP 100 mg per 5ml|30 ml|32.00
+1549|Cefixime Oral Suspension IP 25 mg per ml|10 ml|22.00
+1551|Cefoperazone 1g and Sulbactam 500mg Injection|1 Vial|65.00
+1552|Cefoperazone 2g and Sulbactam 1g Injection|1 Vial|115.00
+1553|Cefpodoxime Oral Suspension IP 100mg|30 ml|40.00
+1554|Ceftriaxone 250mg and Tazobactam 31.25mg Injection|1 Vial & wfi|24.00
+1555|Ceftriaxone Injection IP 2 g|1 Vial & wfi|60.00
+1556|Cephalexin Extended Release Tablets 750mg|10's|115.00
+1557|Cerebroprotein Hydrolysate Injection 30mg|1 vial|200.00
+1558|Cerebroprotein Hydrolysate Injection 60mg|1 vial|250.00
+1559|Chloramphenicol Capsules IP 250 mg|10's|40.00
+1560|Chloramphenicol Capsules IP 500 mg|10's|65.00

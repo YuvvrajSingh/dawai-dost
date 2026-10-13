@@ -1,0 +1,13 @@
+node_modules
+.next
+.next-whatsapp-build
+.env*.local
+.env
+preview/dist
+data/raw/*.csv
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Server-side runtime state (stock entries, alerts, push keys)
+data/runtime/

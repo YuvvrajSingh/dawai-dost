@@ -1,0 +1,815 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\YUVRAJ SINGH\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v24.14.1
+3 silly config load:file:C:\Users\YUVRAJ SINGH\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\.npmrc
+5 silly config load:file:C:\Users\YUVRAJ SINGH\.npmrc
+6 silly config load:file:C:\Users\YUVRAJ SINGH\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm ci
+8 verbose argv "ci" "--offline" "false" "--cache" ".npm-cache" "--fetch-retries" "1" "--fetch-timeout" "20000"
+9 verbose logfile logs-max:10 dir:C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\.npm-cache\_logs\2026-10-13T08_24_10_364Z-
+10 verbose logfile C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\.npm-cache\_logs\2026-10-13T08_24_10_364Z-debug-0.log
+11 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@tailwindcss\oxide-wasm32-wasi
+16 silly reify mark deleted [
+16 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@tailwindcss\\oxide-wasm32-wasi'
+16 silly reify ]
+17 silly audit bulk request {
+17 silly audit   '@alloc/quick-lru': [ '5.3.0' ],
+17 silly audit   '@emnapi/runtime': [ '1.11.3' ],
+17 silly audit   '@esbuild/aix-ppc64': [ '0.25.12' ],
+17 silly audit   '@esbuild/android-arm': [ '0.25.12' ],
+17 silly audit   '@esbuild/android-arm64': [ '0.25.12' ],
+17 silly audit   '@esbuild/android-x64': [ '0.25.12' ],
+17 silly audit   '@esbuild/darwin-arm64': [ '0.25.12' ],
+17 silly audit   '@esbuild/darwin-x64': [ '0.25.12' ],
+17 silly audit   '@esbuild/freebsd-arm64': [ '0.25.12' ],
+17 silly audit   '@esbuild/freebsd-x64': [ '0.25.12' ],
+17 silly audit   '@esbuild/linux-arm': [ '0.25.12' ],
+17 silly audit   '@esbuild/linux-arm64': [ '0.25.12' ],
+17 silly audit   '@esbuild/linux-ia32': [ '0.25.12' ],
+17 silly audit   '@esbuild/linux-loong64': [ '0.25.12' ],
+17 silly audit   '@esbuild/linux-mips64el': [ '0.25.12' ],
+17 silly audit   '@esbuild/linux-ppc64': [ '0.25.12' ],
+17 silly audit   '@esbuild/linux-riscv64': [ '0.25.12' ],
+17 silly audit   '@esbuild/linux-s390x': [ '0.25.12' ],
+17 silly audit   '@esbuild/linux-x64': [ '0.25.12' ],
+17 silly audit   '@esbuild/netbsd-arm64': [ '0.25.12' ],
+17 silly audit   '@esbuild/netbsd-x64': [ '0.25.12' ],
+17 silly audit   '@esbuild/openbsd-arm64': [ '0.25.12' ],
+17 silly audit   '@esbuild/openbsd-x64': [ '0.25.12' ],
+17 silly audit   '@esbuild/openharmony-arm64': [ '0.25.12' ],
+17 silly audit   '@esbuild/sunos-x64': [ '0.25.12' ],
+17 silly audit   '@esbuild/win32-arm64': [ '0.25.12' ],
+17 silly audit   '@esbuild/win32-ia32': [ '0.25.12' ],
+17 silly audit   '@esbuild/win32-x64': [ '0.25.12' ],
+17 silly audit   '@fontsource-variable/google-sans': [ '5.3.2' ],
+17 silly audit   '@img/colour': [ '1.1.0' ],
+17 silly audit   '@img/sharp-darwin-arm64': [ '0.35.5' ],
+17 silly audit   '@img/sharp-darwin-x64': [ '0.35.5' ],
+17 silly audit   '@img/sharp-freebsd-wasm32': [ '0.35.5' ],
+17 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.3.4' ],
+17 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.3.4' ],
+17 silly audit   '@img/sharp-libvips-linux-arm': [ '1.3.4' ],
+17 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.3.4' ],
+17 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.3.4' ],
+17 silly audit   '@img/sharp-libvips-linux-riscv64': [ '1.3.4' ],
+17 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.3.4' ],
+17 silly audit   '@img/sharp-libvips-linux-x64': [ '1.3.4' ],
+17 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.3.4' ],
+17 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.3.4' ],
+17 silly audit   '@img/sharp-linux-arm': [ '0.35.5' ],
+17 silly audit   '@img/sharp-linux-arm64': [ '0.35.5' ],
+17 silly audit   '@img/sharp-linux-ppc64': [ '0.35.5' ],
+17 silly audit   '@img/sharp-linux-riscv64': [ '0.35.5' ],
+17 silly audit   '@img/sharp-linux-s390x': [ '0.35.5' ],
+17 silly audit   '@img/sharp-linux-x64': [ '0.35.5' ],
+17 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.35.5' ],
+17 silly audit   '@img/sharp-linuxmusl-x64': [ '0.35.5' ],
+17 silly audit   '@img/sharp-wasm32': [ '0.35.5' ],
+17 silly audit   '@img/sharp-webcontainers-wasm32': [ '0.35.5' ],
+17 silly audit   '@img/sharp-win32-arm64': [ '0.35.5' ],
+17 silly audit   '@img/sharp-win32-ia32': [ '0.35.5' ],
+17 silly audit   '@img/sharp-win32-x64': [ '0.35.5' ],
+17 silly audit   '@isaacs/fs-minipass': [ '4.0.1' ],
+17 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+17 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+17 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+17 silly audit   '@jridgewell/sourcemap-codec': [ '1.6.0' ],
+17 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+17 silly audit   '@next/env': [ '15.5.26' ],
+17 silly audit   '@next/swc-darwin-arm64': [ '15.5.26' ],
+17 silly audit   '@next/swc-darwin-x64': [ '15.5.26' ],
+17 silly audit   '@next/swc-linux-arm64-gnu': [ '15.5.26' ],
+17 silly audit   '@next/swc-linux-arm64-musl': [ '15.5.26' ],
+17 silly audit   '@next/swc-linux-x64-gnu': [ '15.5.26' ],
+17 silly audit   '@next/swc-linux-x64-musl': [ '15.5.26' ],
+17 silly audit   '@next/swc-win32-arm64-msvc': [ '15.5.26' ],
+17 silly audit   '@next/swc-win32-x64-msvc': [ '15.5.26' ],
+17 silly audit   '@swc/helpers': [ '0.5.15' ],
+17 silly audit   '@tailwindcss/node': [ '4.1.13' ],
+17 silly audit   '@tailwindcss/oxide': [ '4.1.13' ],
+17 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.1.13' ],
+17 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.1.13' ],
+17 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.1.13' ],
+17 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.1.13' ],
+17 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.1.13' ],
+17 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.1.13' ],
+17 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.1.13' ],
+17 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.1.13' ],
+17 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.1.13' ],
+17 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.1.13' ],
+17 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.1.13' ],
+17 silly audit   '@tailwindcss/postcss': [ '4.1.13' ],
+17 silly audit   '@types/node': [ '22.18.0' ],
+17 silly audit   '@types/react': [ '19.1.12' ],
+17 silly audit   '@types/react-dom': [ '19.1.9' ],
+17 silly audit   'caniuse-lite': [ '1.0.30001815' ],
+17 silly audit   chownr: [ '3.0.0' ],
+17 silly audit   'client-only': [ '0.0.1' ],
+17 silly audit   csstype: [ '3.2.3' ],
+17 silly audit   'detect-libc': [ '2.1.2' ],
+17 silly audit   'enhanced-resolve': [ '5.26.0' ],
+17 silly audit   esbuild: [ '0.25.12' ],
+17 silly audit   'framer-motion': [ '12.43.0' ],
+17 silly audit   fsevents: [ '2.3.3' ],
+17 silly audit   'get-tsconfig': [ '4.14.3' ],
+17 silly audit   'graceful-fs': [ '4.2.11' ],
+17 silly audit   jiti: [ '2.7.0' ],
+17 silly audit   lightningcss: [ '1.30.1' ],
+17 silly audit   'lightningcss-darwin-arm64': [ '1.30.1' ],
+17 silly audit   'lightningcss-darwin-x64': [ '1.30.1' ],
+17 silly audit   'lightningcss-freebsd-x64': [ '1.30.1' ],
+17 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.30.1' ],
+17 silly audit   'lightningcss-linux-arm64-gnu': [ '1.30.1' ],
+17 silly audit   'lightningcss-linux-arm64-musl': [ '1.30.1' ],
+17 silly audit   'lightningcss-linux-x64-gnu': [ '1.30.1' ],
+17 silly audit   'lightningcss-linux-x64-musl': [ '1.30.1' ],
+17 silly audit   'lightningcss-win32-arm64-msvc': [ '1.30.1' ],
+17 silly audit   'lightningcss-win32-x64-msvc': [ '1.30.1' ],
+17 silly audit   'lucide-react': [ '0.468.0' ],
+17 silly audit   'magic-string': [ '0.30.21' ],
+17 silly audit   minipass: [ '7.1.3' ],
+17 silly audit   minizlib: [ '3.1.0' ],
+17 silly audit   motion: [ '12.23.24' ],
+17 silly audit   'motion-dom': [ '12.43.0' ],
+17 silly audit   'motion-utils': [ '12.39.0' ],
+17 silly audit   nanoid: [ '3.3.20' ],
+17 silly audit   next: [ '15.5.26' ],
+17 silly audit   postcss: [ '8.4.31', '8.5.29' ],
+17 silly audit   picocolors: [ '1.1.1' ],
+17 silly audit   react: [ '19.1.1' ],
+17 silly audit   'react-dom': [ '19.1.1' ],
+17 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+17 silly audit   scheduler: [ '0.26.0' ],
+17 silly audit   semver: [ '7.8.5' ],
+17 silly audit   'server-only': [ '0.0.1' ],
+17 silly audit   sharp: [ '0.35.5' ],
+17 silly audit   'source-map-js': [ '1.2.2' ],
+17 silly audit   'styled-jsx': [ '5.1.6' ],
+17 silly audit   tailwindcss: [ '4.1.13' ],
+17 silly audit   tapable: [ '2.3.3' ],
+17 silly audit   tar: [ '7.5.22' ],
+17 silly audit   tslib: [ '2.8.1' ],
+17 silly audit   tsx: [ '4.20.5' ],
+17 silly audit   typescript: [ '5.9.2' ],
+17 silly audit   'undici-types': [ '6.21.0' ],
+17 silly audit   yallist: [ '5.0.0' ],
+17 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.1.13' ]
+17 silly audit }
+18 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\lightningcss-win32-arm64-msvc
+19 silly reify mark deleted [
+19 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\lightningcss-win32-arm64-msvc'
+19 silly reify ]
+20 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\lightningcss-linux-x64-musl
+21 silly reify mark deleted [
+21 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\lightningcss-linux-x64-musl'
+21 silly reify ]
+22 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\lightningcss-linux-x64-gnu
+23 silly reify mark deleted [
+23 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\lightningcss-linux-x64-gnu'
+23 silly reify ]
+24 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\lightningcss-linux-arm64-musl
+25 silly reify mark deleted [
+25 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\lightningcss-linux-arm64-musl'
+25 silly reify ]
+26 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\lightningcss-linux-arm64-gnu
+27 silly reify mark deleted [
+27 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\lightningcss-linux-arm64-gnu'
+27 silly reify ]
+28 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\lightningcss-linux-arm-gnueabihf
+29 silly reify mark deleted [
+29 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\lightningcss-linux-arm-gnueabihf'
+29 silly reify ]
+30 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\lightningcss-freebsd-x64
+31 silly reify mark deleted [
+31 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\lightningcss-freebsd-x64'
+31 silly reify ]
+32 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\lightningcss-darwin-x64
+33 silly reify mark deleted [
+33 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\lightningcss-darwin-x64'
+33 silly reify ]
+34 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\lightningcss-darwin-arm64
+35 silly reify mark deleted [
+35 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\lightningcss-darwin-arm64'
+35 silly reify ]
+36 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\fsevents
+37 silly reify mark deleted [
+37 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\fsevents'
+37 silly reify ]
+38 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@tailwindcss\oxide-win32-arm64-msvc
+39 silly reify mark deleted [
+39 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc'
+39 silly reify ]
+40 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@tailwindcss\oxide-linux-x64-musl
+41 silly reify mark deleted [
+41 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@tailwindcss\\oxide-linux-x64-musl'
+41 silly reify ]
+42 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@tailwindcss\oxide-linux-x64-gnu
+43 silly reify mark deleted [
+43 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu'
+43 silly reify ]
+44 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@tailwindcss\oxide-linux-arm64-musl
+45 silly reify mark deleted [
+45 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl'
+45 silly reify ]
+46 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@tailwindcss\oxide-linux-arm64-gnu
+47 silly reify mark deleted [
+47 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu'
+47 silly reify ]
+48 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@tailwindcss\oxide-linux-arm-gnueabihf
+49 silly reify mark deleted [
+49 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf'
+49 silly reify ]
+50 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@tailwindcss\oxide-freebsd-x64
+51 silly reify mark deleted [
+51 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@tailwindcss\\oxide-freebsd-x64'
+51 silly reify ]
+52 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@tailwindcss\oxide-darwin-x64
+53 silly reify mark deleted [
+53 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@tailwindcss\\oxide-darwin-x64'
+53 silly reify ]
+54 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@tailwindcss\oxide-darwin-arm64
+55 silly reify mark deleted [
+55 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@tailwindcss\\oxide-darwin-arm64'
+55 silly reify ]
+56 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@tailwindcss\oxide-android-arm64
+57 silly reify mark deleted [
+57 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@tailwindcss\\oxide-android-arm64'
+57 silly reify ]
+58 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@next\swc-win32-arm64-msvc
+59 silly reify mark deleted [
+59 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@next\\swc-win32-arm64-msvc'
+59 silly reify ]
+60 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@next\swc-linux-x64-musl
+61 silly reify mark deleted [
+61 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@next\\swc-linux-x64-musl'
+61 silly reify ]
+62 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@next\swc-linux-x64-gnu
+63 silly reify mark deleted [
+63 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@next\\swc-linux-x64-gnu'
+63 silly reify ]
+64 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@next\swc-linux-arm64-musl
+65 silly reify mark deleted [
+65 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@next\\swc-linux-arm64-musl'
+65 silly reify ]
+66 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@next\swc-linux-arm64-gnu
+67 silly reify mark deleted [
+67 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@next\\swc-linux-arm64-gnu'
+67 silly reify ]
+68 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@next\swc-darwin-x64
+69 silly reify mark deleted [
+69 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@next\\swc-darwin-x64'
+69 silly reify ]
+70 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@next\swc-darwin-arm64
+71 silly reify mark deleted [
+71 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@next\\swc-darwin-arm64'
+71 silly reify ]
+72 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-win32-ia32
+73 silly reify mark deleted [
+73 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-win32-ia32'
+73 silly reify ]
+74 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-win32-arm64
+75 silly reify mark deleted [
+75 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-win32-arm64'
+75 silly reify ]
+76 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-webcontainers-wasm32
+77 silly reify mark deleted [
+77 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-webcontainers-wasm32'
+77 silly reify ]
+78 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-linuxmusl-x64
+79 silly reify mark deleted [
+79 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-linuxmusl-x64'
+79 silly reify ]
+80 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-linuxmusl-arm64
+81 silly reify mark deleted [
+81 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-linuxmusl-arm64'
+81 silly reify ]
+82 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-linux-x64
+83 silly reify mark deleted [
+83 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-linux-x64'
+83 silly reify ]
+84 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-linux-s390x
+85 silly reify mark deleted [
+85 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-linux-s390x'
+85 silly reify ]
+86 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-linux-riscv64
+87 silly reify mark deleted [
+87 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-linux-riscv64'
+87 silly reify ]
+88 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-linux-ppc64
+89 silly reify mark deleted [
+89 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-linux-ppc64'
+89 silly reify ]
+90 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-linux-arm64
+91 silly reify mark deleted [
+91 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-linux-arm64'
+91 silly reify ]
+92 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-linux-arm
+93 silly reify mark deleted [
+93 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-linux-arm'
+93 silly reify ]
+94 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-libvips-linuxmusl-x64
+95 silly reify mark deleted [
+95 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+95 silly reify ]
+96 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-libvips-linuxmusl-arm64
+97 silly reify mark deleted [
+97 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+97 silly reify ]
+98 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-libvips-linux-x64
+99 silly reify mark deleted [
+99 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-libvips-linux-x64'
+99 silly reify ]
+100 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-libvips-linux-s390x
+101 silly reify mark deleted [
+101 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-libvips-linux-s390x'
+101 silly reify ]
+102 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-libvips-linux-riscv64
+103 silly reify mark deleted [
+103 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-libvips-linux-riscv64'
+103 silly reify ]
+104 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-libvips-linux-ppc64
+105 silly reify mark deleted [
+105 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-libvips-linux-ppc64'
+105 silly reify ]
+106 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-libvips-linux-arm64
+107 silly reify mark deleted [
+107 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-libvips-linux-arm64'
+107 silly reify ]
+108 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-libvips-linux-arm
+109 silly reify mark deleted [
+109 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-libvips-linux-arm'
+109 silly reify ]
+110 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-libvips-darwin-x64
+111 silly reify mark deleted [
+111 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-libvips-darwin-x64'
+111 silly reify ]
+112 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-libvips-darwin-arm64
+113 silly reify mark deleted [
+113 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+113 silly reify ]
+114 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-freebsd-wasm32
+115 silly reify mark deleted [
+115 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-freebsd-wasm32'
+115 silly reify ]
+116 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-darwin-x64
+117 silly reify mark deleted [
+117 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-darwin-x64'
+117 silly reify ]
+118 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@img\sharp-darwin-arm64
+119 silly reify mark deleted [
+119 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@img\\sharp-darwin-arm64'
+119 silly reify ]
+120 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\win32-ia32
+121 silly reify mark deleted [
+121 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\win32-ia32'
+121 silly reify ]
+122 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\win32-arm64
+123 silly reify mark deleted [
+123 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\win32-arm64'
+123 silly reify ]
+124 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\sunos-x64
+125 silly reify mark deleted [
+125 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\sunos-x64'
+125 silly reify ]
+126 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\openharmony-arm64
+127 silly reify mark deleted [
+127 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\openharmony-arm64'
+127 silly reify ]
+128 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\openbsd-x64
+129 silly reify mark deleted [
+129 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\openbsd-x64'
+129 silly reify ]
+130 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\openbsd-arm64
+131 silly reify mark deleted [
+131 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\openbsd-arm64'
+131 silly reify ]
+132 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\netbsd-x64
+133 silly reify mark deleted [
+133 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\netbsd-x64'
+133 silly reify ]
+134 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\netbsd-arm64
+135 silly reify mark deleted [
+135 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\netbsd-arm64'
+135 silly reify ]
+136 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\linux-x64
+137 silly reify mark deleted [
+137 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\linux-x64'
+137 silly reify ]
+138 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\linux-s390x
+139 silly reify mark deleted [
+139 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\linux-s390x'
+139 silly reify ]
+140 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\linux-riscv64
+141 silly reify mark deleted [
+141 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\linux-riscv64'
+141 silly reify ]
+142 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\linux-ppc64
+143 silly reify mark deleted [
+143 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\linux-ppc64'
+143 silly reify ]
+144 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\linux-mips64el
+145 silly reify mark deleted [
+145 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\linux-mips64el'
+145 silly reify ]
+146 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\linux-loong64
+147 silly reify mark deleted [
+147 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\linux-loong64'
+147 silly reify ]
+148 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\linux-ia32
+149 silly reify mark deleted [
+149 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\linux-ia32'
+149 silly reify ]
+150 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\linux-arm64
+151 silly reify mark deleted [
+151 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\linux-arm64'
+151 silly reify ]
+152 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\linux-arm
+153 silly reify mark deleted [
+153 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\linux-arm'
+153 silly reify ]
+154 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\freebsd-x64
+155 silly reify mark deleted [
+155 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\freebsd-x64'
+155 silly reify ]
+156 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\freebsd-arm64
+157 silly reify mark deleted [
+157 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\freebsd-arm64'
+157 silly reify ]
+158 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\darwin-x64
+159 silly reify mark deleted [
+159 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\darwin-x64'
+159 silly reify ]
+160 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\darwin-arm64
+161 silly reify mark deleted [
+161 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\darwin-arm64'
+161 silly reify ]
+162 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\android-x64
+163 silly reify mark deleted [
+163 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\android-x64'
+163 silly reify ]
+164 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\android-arm64
+165 silly reify mark deleted [
+165 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\android-arm64'
+165 silly reify ]
+166 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\android-arm
+167 silly reify mark deleted [
+167 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\android-arm'
+167 silly reify ]
+168 verbose reify failed optional dependency C:\Users\YUVRAJ SINGH\Downloads\dawai-dost\node_modules\@esbuild\aix-ppc64
+169 silly reify mark deleted [
+169 silly reify   'C:\\Users\\YUVRAJ SINGH\\Downloads\\dawai-dost\\node_modules\\@esbuild\\aix-ppc64'
+169 silly reify ]
+170 silly tarball no local data for yallist@https://registry.npmjs.org/yallist/-/yallist-5.0.0.tgz. Extracting by manifest.
+171 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.2.tgz. Extracting by manifest.
+172 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz. Extracting by manifest.
+173 silly tarball no local data for tsx@https://registry.npmjs.org/tsx/-/tsx-4.20.5.tgz. Extracting by manifest.
+174 silly tarball no local data for tapable@https://registry.npmjs.org/tapable/-/tapable-2.3.3.tgz. Extracting by manifest.
+175 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+176 silly tarball no local data for tar@https://registry.npmjs.org/tar/-/tar-7.5.22.tgz. Extracting by manifest.
+177 silly tarball no local data for styled-jsx@https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.6.tgz. Extracting by manifest.
+178 silly tarball no local data for tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.1.13.tgz. Extracting by manifest.
+179 silly tarball no local data for source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.2.tgz. Extracting by manifest.
+180 silly tarball no local data for server-only@https://registry.npmjs.org/server-only/-/server-only-0.0.1.tgz. Extracting by manifest.
+181 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.8.5.tgz. Extracting by manifest.
+182 silly tarball no local data for sharp@https://registry.npmjs.org/sharp/-/sharp-0.35.5.tgz. Extracting by manifest.
+183 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.26.0.tgz. Extracting by manifest.
+184 silly tarball no local data for resolve-pkg-maps@https://registry.npmjs.org/resolve-pkg-maps/-/resolve-pkg-maps-1.0.0.tgz. Extracting by manifest.
+185 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.1.1.tgz. Extracting by manifest.
+186 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.29.tgz. Extracting by manifest.
+187 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-19.1.1.tgz. Extracting by manifest.
+188 silly tarball no local data for next@https://registry.npmjs.org/next/-/next-15.5.26.tgz. Extracting by manifest.
+189 silly tarball no local data for picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz. Extracting by manifest.
+190 silly tarball no local data for motion-utils@https://registry.npmjs.org/motion-utils/-/motion-utils-12.39.0.tgz. Extracting by manifest.
+191 silly tarball no local data for motion@https://registry.npmjs.org/motion/-/motion-12.23.24.tgz. Extracting by manifest.
+192 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.20.tgz. Extracting by manifest.
+193 silly tarball no local data for motion-dom@https://registry.npmjs.org/motion-dom/-/motion-dom-12.43.0.tgz. Extracting by manifest.
+194 silly tarball no local data for minizlib@https://registry.npmjs.org/minizlib/-/minizlib-3.1.0.tgz. Extracting by manifest.
+195 silly tarball no local data for minipass@https://registry.npmjs.org/minipass/-/minipass-7.1.3.tgz. Extracting by manifest.
+196 silly tarball no local data for magic-string@https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz. Extracting by manifest.
+197 silly tarball no local data for lightningcss-win32-x64-msvc@https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.30.1.tgz. Extracting by manifest.
+198 silly tarball no local data for lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-0.468.0.tgz. Extracting by manifest.
+199 silly tarball no local data for jiti@https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz. Extracting by manifest.
+200 silly tarball no local data for graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz. Extracting by manifest.
+201 silly tarball no local data for lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.30.1.tgz. Extracting by manifest.
+202 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz. Extracting by manifest.
+203 silly tarball no local data for framer-motion@https://registry.npmjs.org/framer-motion/-/framer-motion-12.43.0.tgz. Extracting by manifest.
+204 silly tarball no local data for get-tsconfig@https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-4.14.3.tgz. Extracting by manifest.
+205 silly tarball no local data for enhanced-resolve@https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.26.0.tgz. Extracting by manifest.
+206 silly tarball no local data for detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz. Extracting by manifest.
+207 silly tarball no local data for csstype@https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz. Extracting by manifest.
+208 silly tarball no local data for client-only@https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz. Extracting by manifest.
+209 silly tarball no local data for chownr@https://registry.npmjs.org/chownr/-/chownr-3.0.0.tgz. Extracting by manifest.
+210 silly tarball no local data for caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001815.tgz. Extracting by manifest.
+211 silly tarball no local data for @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-19.1.9.tgz. Extracting by manifest.
+212 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-22.18.0.tgz. Extracting by manifest.
+213 silly tarball no local data for @types/react@https://registry.npmjs.org/@types/react/-/react-19.1.12.tgz. Extracting by manifest.
+214 silly tarball no local data for @tailwindcss/postcss@https://registry.npmjs.org/@tailwindcss/postcss/-/postcss-4.1.13.tgz. Extracting by manifest.
+215 silly tarball no local data for @tailwindcss/oxide-win32-x64-msvc@https://registry.npmjs.org/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.1.13.tgz. Extracting by manifest.
+216 silly tarball no local data for @tailwindcss/oxide@https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.1.13.tgz. Extracting by manifest.
+217 silly tarball no local data for @tailwindcss/node@https://registry.npmjs.org/@tailwindcss/node/-/node-4.1.13.tgz. Extracting by manifest.
+218 silly tarball no local data for @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.15.tgz. Extracting by manifest.
+219 silly tarball no local data for @next/env@https://registry.npmjs.org/@next/env/-/env-15.5.26.tgz. Extracting by manifest.
+220 silly tarball no local data for @next/swc-win32-x64-msvc@https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-15.5.26.tgz. Extracting by manifest.
+221 silly tarball no local data for @jridgewell/trace-mapping@https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz. Extracting by manifest.
+222 silly tarball no local data for @jridgewell/sourcemap-codec@https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.6.0.tgz. Extracting by manifest.
+223 silly tarball no local data for @jridgewell/gen-mapping@https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz. Extracting by manifest.
+224 silly tarball no local data for @jridgewell/remapping@https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz. Extracting by manifest.
+225 silly tarball no local data for @jridgewell/resolve-uri@https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz. Extracting by manifest.
+226 silly tarball no local data for @isaacs/fs-minipass@https://registry.npmjs.org/@isaacs/fs-minipass/-/fs-minipass-4.0.1.tgz. Extracting by manifest.
+227 silly tarball no local data for @img/sharp-wasm32@https://registry.npmjs.org/@img/sharp-wasm32/-/sharp-wasm32-0.35.5.tgz. Extracting by manifest.
+228 silly tarball no local data for @img/sharp-win32-x64@https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.35.5.tgz. Extracting by manifest.
+229 silly tarball no local data for @fontsource-variable/google-sans@https://registry.npmjs.org/@fontsource-variable/google-sans/-/google-sans-5.3.2.tgz. Extracting by manifest.
+230 silly tarball no local data for @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.11.3.tgz. Extracting by manifest.
+231 silly tarball no local data for @esbuild/win32-x64@https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.25.12.tgz. Extracting by manifest.
+232 silly tarball no local data for @alloc/quick-lru@https://registry.npmjs.org/@alloc/quick-lru/-/quick-lru-5.3.0.tgz. Extracting by manifest.
+233 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz. Extracting by manifest.
+234 silly tarball no local data for @img/colour@https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz. Extracting by manifest.
+235 http fetch GET 200 https://registry.npmjs.org/server-only/-/server-only-0.0.1.tgz 696ms (cache miss)
+236 http fetch GET 200 https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 720ms (cache miss)
+237 http fetch GET 200 https://registry.npmjs.org/resolve-pkg-maps/-/resolve-pkg-maps-1.0.0.tgz 739ms (cache miss)
+238 http fetch GET 200 https://registry.npmjs.org/yallist/-/yallist-5.0.0.tgz 809ms (cache miss)
+239 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.26.0.tgz 826ms (cache miss)
+240 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 896ms
+241 silly audit report {
+241 silly audit report   next: [
+241 silly audit report     {
+241 silly audit report       id: 1241494,
+241 silly audit report       url: 'https://github.com/advisories/GHSA-mcj8-r9mp-w47p',
+241 silly audit report       title: 'Next.js has cache poisoning in SSG/ISR rendering that leads to cross-user content substitution and persistent denial of service',
+241 silly audit report       severity: 'moderate',
+241 silly audit report       vulnerable_versions: '>=15.0.0 <15.5.27',
+241 silly audit report       cwe: [Array],
+241 silly audit report       cvss: [Object]
+241 silly audit report     },
+241 silly audit report     {
+241 silly audit report       id: 1241491,
+241 silly audit report       url: 'https://github.com/advisories/GHSA-4jqv-mc3x-m676',
+241 silly audit report       title: 'Next.js has cache poisoning of SSG and ISR pages in self-hosted applications',
+241 silly audit report       severity: 'moderate',
+241 silly audit report       vulnerable_versions: '>=15.0.0 <15.5.27',
+241 silly audit report       cwe: [Array],
+241 silly audit report       cvss: [Object]
+241 silly audit report     }
+241 silly audit report   ],
+241 silly audit report   postcss: [
+241 silly audit report     {
+241 silly audit report       id: 1130709,
+241 silly audit report       url: 'https://github.com/advisories/GHSA-fxqj-rqcc-2cmp',
+241 silly audit report       title: 'PostCSS: incomplete fix of GHSA-6g55-p6wh-862q — attacker-controlled sourceMappingURL reads arbitrary .map files when `from` is unset',
+241 silly audit report       severity: 'moderate',
+241 silly audit report       vulnerable_versions: '<=8.5.22',
+241 silly audit report       cwe: [Array],
+241 silly audit report       cvss: [Object]
+241 silly audit report     },
+241 silly audit report     {
+241 silly audit report       id: 1117015,
+241 silly audit report       url: 'https://github.com/advisories/GHSA-qx2v-qp2m-jg93',
+241 silly audit report       title: 'PostCSS has XSS via Unescaped </style> in its CSS Stringify Output',
+241 silly audit report       severity: 'moderate',
+241 silly audit report       vulnerable_versions: '<8.5.10',
+241 silly audit report       cwe: [Array],
+241 silly audit report       cvss: [Object]
+241 silly audit report     },
+241 silly audit report     {
+241 silly audit report       id: 1124252,
+241 silly audit report       url: 'https://github.com/advisories/GHSA-6g55-p6wh-862q',
+241 silly audit report       title: 'PostCSS: Arbitrary file read and information disclosure via attacker-controlled sourceMappingURL in CSS comments',
+241 silly audit report       severity: 'high',
+241 silly audit report       vulnerable_versions: '<=8.5.11',
+241 silly audit report       cwe: [Array],
+241 silly audit report       cvss: [Object]
+241 silly audit report     },
+241 silly audit report     {
+241 silly audit report       id: 1139510,
+241 silly audit report       url: 'https://github.com/advisories/GHSA-r28c-9q8g-f849',
+241 silly audit report       title: 'PostCSS: Path Traversal in Previous Source Map Auto-Loading (sourceMappingURL) leads to Arbitrary .map File Disclosure',
+241 silly audit report       severity: 'high',
+241 silly audit report       vulnerable_versions: '<=8.5.17',
+241 silly audit report       cwe: [Array],
+241 silly audit report       cvss: [Object]
+241 silly audit report     }
+241 silly audit report   ]
+241 silly audit report }
+242 silly packumentCache corgi:https://registry.npmjs.org/next cache-miss
+243 silly packumentCache corgi:https://registry.npmjs.org/postcss cache-miss
+244 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 872ms (cache miss)
+245 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 906ms (cache miss)
+246 http fetch GET 200 https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.2.tgz 950ms (cache miss)
+247 http fetch GET 200 https://registry.npmjs.org/tapable/-/tapable-2.3.3.tgz 985ms (cache miss)
+248 http fetch GET 200 https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz 995ms (cache miss)
+249 http fetch GET 200 https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz 1030ms (cache miss)
+250 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.20.tgz 1032ms (cache miss)
+251 http fetch GET 200 https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 1053ms (cache miss)
+252 http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz 1063ms (cache miss)
+253 http fetch GET 200 https://registry.npmjs.org/minipass/-/minipass-7.1.3.tgz 1092ms (cache miss)
+254 http fetch GET 200 https://registry.npmjs.org/react/-/react-19.1.1.tgz 1108ms (cache miss)
+255 http fetch GET 200 https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-4.14.3.tgz 1116ms (cache miss)
+256 http fetch GET 200 https://registry.npmjs.org/minizlib/-/minizlib-3.1.0.tgz 1139ms (cache miss)
+257 http fetch GET 200 https://registry.npmjs.org/chownr/-/chownr-3.0.0.tgz 1138ms (cache miss)
+258 http fetch GET 200 https://registry.npmjs.org/lightningcss/-/lightningcss-1.30.1.tgz 1175ms (cache miss)
+259 http fetch GET 200 https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.6.tgz 1198ms (cache miss)
+260 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz 1207ms (cache miss)
+261 http fetch GET 200 https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz 1215ms (cache miss)
+262 http fetch GET 200 https://registry.npmjs.org/motion/-/motion-12.23.24.tgz 1231ms (cache miss)
+263 http fetch GET 200 https://registry.npmjs.org/@types/react-dom/-/react-dom-19.1.9.tgz 1228ms (cache miss)
+264 http fetch GET 200 https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.1.13.tgz 1345ms (cache miss)
+265 http fetch GET 200 https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz 1443ms (cache miss)
+266 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.1.13.tgz 1439ms (cache miss)
+267 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/postcss/-/postcss-4.1.13.tgz 1472ms (cache miss)
+268 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.8.5.tgz 1483ms (cache miss)
+269 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.5.29.tgz 1507ms (cache miss)
+270 http fetch GET 200 https://registry.npmjs.org/tsx/-/tsx-4.20.5.tgz 1582ms (cache miss)
+271 http fetch GET 200 https://registry.npmjs.org/@next/env/-/env-15.5.26.tgz 1576ms (cache miss)
+272 http fetch GET 200 https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz 1603ms (cache miss)
+273 http fetch GET 200 https://registry.npmjs.org/@alloc/quick-lru/-/quick-lru-5.3.0.tgz 1638ms (cache miss)
+274 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/node/-/node-4.1.13.tgz 1650ms (cache miss)
+275 http fetch GET 200 https://registry.npmjs.org/motion-utils/-/motion-utils-12.39.0.tgz 1659ms (cache miss)
+276 http fetch GET 200 https://registry.npmjs.org/@isaacs/fs-minipass/-/fs-minipass-4.0.1.tgz 1690ms (cache miss)
+277 http fetch GET 200 https://registry.npmjs.org/sharp/-/sharp-0.35.5.tgz 1742ms (cache miss)
+278 http fetch GET 200 https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz 1709ms (cache miss)
+279 http fetch GET 200 https://registry.npmjs.org/postcss 1027ms (cache miss)
+280 silly packumentCache corgi:https://registry.npmjs.org/postcss set size:undefined disposed:false
+281 http fetch GET 200 https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz 1921ms (cache miss)
+282 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-19.1.12.tgz 1947ms (cache miss)
+283 http fetch GET 200 https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz 1943ms (cache miss)
+284 http fetch GET 200 https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.11.3.tgz 1941ms (cache miss)
+285 http fetch GET 200 https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.6.0.tgz 2069ms (cache miss)
+286 http fetch GET 200 https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz 2094ms (cache miss)
+287 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz 2282ms (cache miss)
+288 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.1.13.tgz 2481ms (cache miss)
+289 http fetch GET 200 https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.26.0.tgz 2614ms (cache miss)
+290 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-19.1.1.tgz 2676ms (cache miss)
+291 http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.30.1.tgz 2678ms (cache miss)
+292 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-22.18.0.tgz 2755ms (cache miss)
+293 http fetch GET 200 https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.25.12.tgz 3376ms (cache miss)
+294 http fetch GET 200 https://registry.npmjs.org/@img/sharp-wasm32/-/sharp-wasm32-0.35.5.tgz 3407ms (cache miss)
+295 http fetch GET 200 https://registry.npmjs.org/tar/-/tar-7.5.22.tgz 3822ms (cache miss)
+296 http fetch GET 200 https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.35.5.tgz 4286ms (cache miss)
+297 http fetch GET 200 https://registry.npmjs.org/next 3635ms (cache miss)
+298 silly packumentCache corgi:https://registry.npmjs.org/next set size:undefined disposed:false
+299 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.9.2.tgz 5431ms (cache miss)
+300 http fetch GET 200 https://registry.npmjs.org/framer-motion/-/framer-motion-12.43.0.tgz 5472ms (cache miss)
+301 http fetch GET 200 https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.15.tgz 5478ms (cache miss)
+302 http fetch GET 200 https://registry.npmjs.org/motion-dom/-/motion-dom-12.43.0.tgz 5738ms (cache miss)
+303 http fetch GET 200 https://registry.npmjs.org/@fontsource-variable/google-sans/-/google-sans-5.3.2.tgz 6308ms (cache miss)
+304 http fetch GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001815.tgz 6811ms (cache miss)
+305 http fetch GET 200 https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-15.5.26.tgz 8608ms (cache miss)
+306 http fetch GET 200 https://registry.npmjs.org/lucide-react/-/lucide-react-0.468.0.tgz 11604ms (cache miss)
+307 http fetch GET 200 https://registry.npmjs.org/next/-/next-15.5.26.tgz 18623ms (cache miss)
+308 info run @tailwindcss/oxide@4.1.13 postinstall node_modules/@tailwindcss/oxide node ./scripts/install.js
+309 info run esbuild@0.25.12 postinstall node_modules/esbuild node install.js
+310 info run @tailwindcss/oxide@4.1.13 postinstall { code: 0, signal: null }
+311 info run esbuild@0.25.12 postinstall { code: 0, signal: null }
+312 silly ADD node_modules/yallist
+313 silly ADD node_modules/undici-types
+314 silly ADD node_modules/typescript
+315 silly ADD node_modules/tsx
+316 silly ADD node_modules/tslib
+317 silly ADD node_modules/tar
+318 silly ADD node_modules/tapable
+319 silly ADD node_modules/tailwindcss
+320 silly ADD node_modules/styled-jsx
+321 silly ADD node_modules/source-map-js
+322 silly ADD node_modules/sharp
+323 silly ADD node_modules/server-only
+324 silly ADD node_modules/semver
+325 silly ADD node_modules/scheduler
+326 silly ADD node_modules/resolve-pkg-maps
+327 silly ADD node_modules/react-dom
+328 silly ADD node_modules/react
+329 silly ADD node_modules/postcss
+330 silly ADD node_modules/picocolors
+331 silly ADD node_modules/next
+332 silly ADD node_modules/next/node_modules/postcss
+333 silly ADD node_modules/nanoid
+334 silly ADD node_modules/motion-utils
+335 silly ADD node_modules/motion-dom
+336 silly ADD node_modules/motion
+337 silly ADD node_modules/minizlib
+338 silly ADD node_modules/minipass
+339 silly ADD node_modules/magic-string
+340 silly ADD node_modules/lucide-react
+341 silly ADD node_modules/lightningcss-win32-x64-msvc
+342 silly ADD
+343 silly ADD
+344 silly ADD
+345 silly ADD
+346 silly ADD
+347 silly ADD
+348 silly ADD
+349 silly ADD
+350 silly ADD
+351 silly ADD node_modules/lightningcss
+352 silly ADD node_modules/jiti
+353 silly ADD node_modules/graceful-fs
+354 silly ADD node_modules/get-tsconfig
+355 silly ADD
+356 silly ADD node_modules/framer-motion
+357 silly ADD node_modules/esbuild
+358 silly ADD node_modules/enhanced-resolve
+359 silly ADD node_modules/detect-libc
+360 silly ADD node_modules/csstype
+361 silly ADD node_modules/client-only
+362 silly ADD node_modules/chownr
+363 silly ADD node_modules/caniuse-lite
+364 silly ADD node_modules/@types/react-dom
+365 silly ADD node_modules/@types/react
+366 silly ADD node_modules/@types/node
+367 silly ADD node_modules/@tailwindcss/postcss
+368 silly ADD node_modules/@tailwindcss/oxide-win32-x64-msvc
+369 silly ADD
+370 silly ADD
+371 silly ADD
+372 silly ADD
+373 silly ADD
+374 silly ADD
+375 silly ADD
+376 silly ADD
+377 silly ADD
+378 silly ADD
+379 silly ADD
+380 silly ADD node_modules/@tailwindcss/oxide
+381 silly ADD node_modules/@tailwindcss/node
+382 silly ADD node_modules/@swc/helpers
+383 silly ADD node_modules/@next/swc-win32-x64-msvc
+384 silly ADD
+385 silly ADD
+386 silly ADD
+387 silly ADD
+388 silly ADD
+389 silly ADD
+390 silly ADD
+391 silly ADD node_modules/@next/env
+392 silly ADD node_modules/@jridgewell/trace-mapping
+393 silly ADD node_modules/@jridgewell/sourcemap-codec
+394 silly ADD node_modules/@jridgewell/resolve-uri
+395 silly ADD node_modules/@jridgewell/remapping
+396 silly ADD node_modules/@jridgewell/gen-mapping
+397 silly ADD node_modules/@isaacs/fs-minipass
+398 silly ADD node_modules/@img/sharp-win32-x64
+399 silly ADD
+400 silly ADD
+401 silly ADD
+402 silly ADD node_modules/@img/sharp-wasm32
+403 silly ADD
+404 silly ADD
+405 silly ADD
+406 silly ADD
+407 silly ADD
+408 silly ADD
+409 silly ADD
+410 silly ADD
+411 silly ADD
+412 silly ADD
+413 silly ADD
+414 silly ADD
+415 silly ADD
+416 silly ADD
+417 silly ADD
+418 silly ADD
+419 silly ADD
+420 silly ADD
+421 silly ADD
+422 silly ADD
+423 silly ADD
+424 silly ADD node_modules/@img/colour
+425 silly ADD node_modules/@fontsource-variable/google-sans
+426 silly ADD node_modules/@esbuild/win32-x64
+427 silly ADD
+428 silly ADD
+429 silly ADD
+430 silly ADD
+431 silly ADD
+432 silly ADD
+433 silly ADD
+434 silly ADD
+435 silly ADD
+436 silly ADD
+437 silly ADD
+438 silly ADD
+439 silly ADD
+440 silly ADD
+441 silly ADD
+442 silly ADD
+443 silly ADD
+444 silly ADD
+445 silly ADD
+446 silly ADD
+447 silly ADD
+448 silly ADD
+449 silly ADD
+450 silly ADD
+451 silly ADD
+452 silly ADD node_modules/@emnapi/runtime
+453 silly ADD node_modules/@alloc/quick-lru
+454 verbose cwd C:\Users\YUVRAJ SINGH\Downloads\dawai-dost
+455 verbose os Windows_NT 10.0.26100
+456 verbose node v24.14.1
+457 verbose npm  v10.8.2
+458 verbose exit 0
+459 info ok
