@@ -1,6 +1,10 @@
+
+
+https://github.com/user-attachments/assets/f781f8e2-6a72-4019-b925-641cb65405a1
+
 # Dawai Dost
 
-<img width="466" height="678" alt="image" src="https://github.com/user-attachments/assets/68b821e1-e738-408c-95ef-ce46bcc1e15a" />
+<img width="1920" height="1080" alt="Dawai-Dost-Demo-Poster" src="https://github.com/user-attachments/assets/a9147c3f-a504-4439-95bc-81b554c24434" />
 
 
 **Find the same medicine for less — on the web, or through a phone call.**
