@@ -1,90 +1,190 @@
 # Dawai Dost
 
-Find the same medicine for less. Search or scan a strip, confirm what's printed on it, and see products with the **same salt, strength, form and release type**, sorted by price per tablet. The app uses real Indian medicine data: 246,000 brands plus the Jan Aushadhi government list.
+<img width="466" height="678" alt="image" src="https://github.com/user-attachments/assets/68b821e1-e738-408c-95ef-ce46bcc1e15a" />
 
-## Run it
+
+**Find the same medicine for less — on the web, or through a phone call.**
+
+Search or scan a medicine strip, confirm what is printed on it, and compare lower-priced products by listed ingredients, strength, dosage form, and release type. The web app uses an Indian medicine catalogue of **246,000 brands** plus the Jan Aushadhi government product list. It also supports Hindi/English browser voice search, WhatsApp workflows, Kendra discovery, and an **AI phone assistant powered by Twilio + Vapi**.
+
+> **Medical safety:** A shared ingredient or active moiety does not, by itself, prove two finished products are interchangeable. Dawai Dost shows comparison candidates and listed prices, not prescriptions or approvals to switch medicines. Confirm changes with a doctor or pharmacist.
+
+## Run the web app
 
 ```bash
 npm install
 npm run dev            # http://localhost:3000
 ```
 
-Open the address on your phone (same Wi-Fi, use your computer's IP) to try the camera and voice.
+Open it on a phone on the same Wi-Fi using your computer's local IP address to try the camera and browser voice features.
 
 Other commands:
 
 ```bash
 npm test               # composition parser, matching engine, savings
-npm run data:build     # rebuild data/catalog.json.gz from data/raw (downloads the dataset if missing)
+npm run data:build     # rebuild data/catalog.json.gz from data/raw (downloads dataset if missing)
 npm run data:kendras   # refresh data/kendras.json.gz from the official Kendra Locator
 npm run build && npm start
 ```
 
-### Turn on real strip reading (Gemini)
+### Enable real strip reading (Gemini)
 
-1. Get a key at https://aistudio.google.com/apikey
-2. Create `.env.local` containing `GEMINI_API_KEY=your_key`
+1. Get a key from <https://aistudio.google.com/apikey>.
+2. Create `.env.local` with `GEMINI_API_KEY=your_key`.
 3. Restart `npm run dev`.
 
-Without a key, the scanner still works: camera, upload, and the blur and brightness check all run. The reading step returns a clearly labelled example instead of reading your photo.
+Without the key, camera, upload, blur and brightness checks still work. The reading step returns a clearly labelled example instead of reading the actual photo.
 
-### Presenting it
+## Phone assistant: Twilio + Vapi
 
-Profile → **Load demo data** fills the app with a sample family's medicines, savings, a demo Kendra with stock and two stock reminders (prices stay real). See [docs/DEMO.md](docs/DEMO.md) for a 3-minute script. Profile → **Clear demo data** removes it.
+**Status: working hackathon pilot, configured in external dashboards.** The phone assistant is separate from the Next.js application's browser voice feature.
+
+```text
+Caller (ordinary phone call)
+          |
+   Twilio voice number
+          |
+  Vapi Dawai Dost assistant
+          |-- Speech recognition (Hindi / English / Hinglish)
+          |-- Conversation model + voice synthesis
+          `-- defaultQueryTool
+                 |
+           dawai_dost_jodhpur_demo
+                 |
+        Curated medicine knowledge file
+```
+
+When a patient calls, Dawai Dost greets them, asks for a branded medicine name, clarifies possible mispronunciations, checks strength and formulation suffixes (IR, SR, ER, MD, DT, CR, XR), and retrieves a **published price comparison**. It can describe listed Jan Aushadhi Kendra locations around Jodhpur, but it **cannot confirm live stock**.
+
+The current phone knowledge base is **a small curated subset**, not the web app's full 246,000-brand dataset. Calls do **not** currently query `/api/search`, `/api/compare` or `/api/kendras`; that is a future integration.
+
+### Set up the phone assistant
+
+**Prerequisites:** a voice-capable Twilio number, Twilio account credentials, a Vapi account, and enough call/AI credits. Calling availability and permissions depend on your Twilio account and destination country.
+
+1. **Create the assistant in Vapi**
+   - In <https://dashboard.vapi.ai>, open **Assistants → Create Assistant → Blank Template**.
+   - Name it `Dawai Dost - Voice Assistant`.
+   - Configure a Hindi/English-capable transcriber and voice (the pilot uses Deepgram Nova 3 multilingual and a multilingual Vapi voice).
+   - Set **First Message Mode** to **Assistant Speaks First** and provide a short Hindi/Hinglish welcome message.
+   - Paste the Dawai Dost system prompt from your version-controlled assistant configuration, if available. It must require verification of ambiguous medicine names and restrict its answers to retrieved records.
+2. **Attach the curated medicine file**
+   - Open **Build → Files** and upload the curated Markdown knowledge-base file (pilot file: `dawai_dost_medicine_knowledge_v5.md`). This file is maintained/uploaded separately in Vapi; it is **not automatically generated by `npm run data:build`**.
+   - Open **Tools → Create Tool → Query** (or edit the existing tool).
+   - Set tool name to `defaultQueryTool` and knowledge-base name to `dawai_dost_jodhpur_demo`.
+   - Select the uploaded medicine file, save the tool, and attach it under the assistant's **Tools** tab.
+   - Ensure the system prompt tells the assistant to call `defaultQueryTool` for composition, price and location questions.
+3. **Publish and test in Vapi**
+   - Click **Publish → Quick Publish**. Draft changes are not live until published.
+   - Use **Talk** in the Vapi dashboard to verify the welcome, speech recognition, confirmation questions and knowledge retrieval.
+4. **Connect Twilio**
+   - In Vapi open **Phone Numbers → Create Phone Number → Import Twilio**.
+   - Enter the voice-enabled Twilio number in E.164 format (`+1...`), Account SID and Auth Token directly in the Vapi dashboard.
+   - Open the imported number and assign the **published Dawai Dost assistant** under inbound settings; save.
+   - Call the Twilio number from a permitted phone to test inbound calls. For outbound tests, use Vapi's phone-number test flow and ensure destination permissions are enabled in Twilio.
+
+**Do not commit** your Twilio Auth Token, Account SID, Vapi private API key, caller phone numbers or patient transcripts. There are **no required Twilio/Vapi environment variables for the present dashboard-managed phone flow**; do not add unused credentials to `.env.local`.
+
+Official setup references: [Vapi Twilio import](https://docs.vapi.ai/phone-numbers/import-twilio) · [Vapi Query tool](https://docs.vapi.ai/knowledge-base/using-query-tool) · [Vapi phone quickstart](https://docs.vapi.ai/quickstart/phone).
+
+### Phone conversation covered by the pilot
+
+The curated assistant presently handles these named examples:
+
+| Branded query | What the voice assistant checks | Comparison source |
+|---|---|---|
+| Telma 40 | Telmisartan 40 mg; not the Telma-AM combination | Published Jan Aushadhi price reference |
+| Amlong 5 | Amlodipine 5 mg; strength basis and salt-form uncertainty | Published Jan Aushadhi price reference |
+| Cilacar 10 | Cilnidipine 10 mg; pronunciation and formulation | Published Jan Aushadhi price reference |
+| Telma-AM 40/5 | **Both** telmisartan 40 mg **and** amlodipine 5 mg | Published comparison with **Telmison AM 40/5**, another commercial brand |
+
+For example, the assistant may hear “Telemath” as a possible **Telma-AM** query or “Sila Car Ten” as possible **Cilacar 10**. It **asks the caller to confirm** instead of silently replacing the name.
+
+For salt-aware searches, it distinguishes the **active moiety** from its **chemical salt form** (for example, amlodipine versus amlodipine besylate). A different salt form with an equivalent active-drug strength is only a **candidate for professional verification**, not an automatic generic substitute. A different active-ingredient combination or unsupported release mechanism must not be called equivalent.
+
+Price figures in the phone knowledge file are **historical published reference MRPs**, not current quotes. The Telma-AM / Telmison AM example is a *commercial-brand* comparison, **not** a confirmed Jan Aushadhi listing. Do not claim products are in stock at a Kendra without confirmation from the pharmacy.
+
+### Phone troubleshooting
+
+- **Vapi Talk works, but the phone does not connect:** check that the number is imported, the published assistant is assigned, and Twilio's trial/account/destination permissions allow the call.
+- **Call connects, then silence or disconnection:** open **Vapi → Logs → Calls**; inspect the transcript, ended reason, transcriber/model/voice errors, and transport errors. Also inspect Twilio call logs. A `Silence` ended reason means the timeout fired; it does not, by itself, prove why speech was not detected.
+- **AI greets but does not answer after you speak:** check whether the caller's words appear in the transcript. If absent, inspect transcription/audio. If present, inspect model and Query tool execution.
+- **Old answers persist:** repoint the Query tool to the latest uploaded file and **republish** the assistant. Verify the phone number is assigned to that version.
+- **Slow lookup:** test a short, single-medicine question and inspect `defaultQueryTool` in call logs before changing voice settings.
+
+## Presenting it
+
+**Web:** Profile → **Load demo data** fills the app with a sample family's medicines, savings, a sample Kendra with stock and two stock reminders. Listed prices remain based on catalogue data. See [docs/DEMO.md](docs/DEMO.md) for the web demonstration. Profile → **Clear demo data** removes it.
+
+**Phone (around two minutes):** call the Twilio number on speakerphone; say “Mujhe Telmath forty-five ka sasta option chahiye.” Confirm the suggested brand, answer the formulation question, ask about the price difference for 30 tablets, and ask for a Jodhpur area. The assistant should explain price references and say if local availability is unverified. Its wording and follow-up order may vary.
+
+The pilot's invented stock quantities, if used in rehearsals, are **sample data**; they are never evidence of real pharmacy inventory.
 
 ## What's real now
 
 | Feature | Status |
 |---|---|
-| Medicine search (brand, salt, Hindi spellings of salts) | ✅ Real data, `/api/search` |
-| Comparison by composition, cheapest first, per-tablet pricing | ✅ `/api/compare/:id` |
+| Medicine search (brand, ingredient, Hindi spellings of ingredients) | ✅ App catalogue, `/api/search` |
+| Comparison by composition, cheapest first, per-tablet price | ✅ `/api/compare/:id` |
 | Compare from what's printed on the strip | ✅ `POST /api/compare` |
-| Strip reading | ✅ `/api/ocr` with Gemini when `GEMINI_API_KEY` is set |
-| Photo quality check (blur and brightness) | ✅ On the device |
-| Voice search, Hindi/English | ✅ Browser speech recognition and speech output, answered from real data |
-| Saved medicines and history | ✅ On the device (localStorage) |
-| WhatsApp medicine assistant | Meta webhook + persistent worker implemented; photo confirmation, Jan Aushadhi listed prices, and location lookup. Requires Meta setup; see `docs/WHATSAPP-SETUP.md`. The app's share button still uses the phone share sheet. |
-| Nearby Jan Aushadhi Kendras | ✅ `/api/kendras`: nearest by location, or by PIN code / city / Kendra code, with distance, address, phone and directions. From the official PMBI Kendra Locator list (21,356 Kendras) bundled in `data/kendras.json.gz`; refresh with `npm run data:kendras` |
-| Jan Aushadhi stock quantity | ✅ Per Kendra: users pick "My Kendra" and see "120 tablets in stock" on Compare and medicine pages. Figures entered by Kendra staff (Profile → For Kendra staff, PIN in `KENDRA_STAFF_PIN`) always win; otherwise **demo stock** fills in, labelled in the app (`STOCK_DEMO=0` turns it off). No public PMBJP stock feed exists |
-| Restock alerts | ✅ "Notify me when back in stock" → web push (`public/sw.js`, `web-push`) when quantity goes above 0; in-app banner when push isn't allowed. Server checks every 30 s and immediately on a staff restock; on serverless, call `POST /api/alerts/check` from a cron |
-| Brand / pharmacy stock | ✅ In stock / out of stock as reported on the device ("Was it in stock?"). Out-of-stock options drop out of "cheapest" so the next one is shown |
-| Savings tracking | ✅ "I bought this" logs a purchase; money saved = brand MRP − bought medicine MRP for that quantity. On the device (localStorage) |
-| Live pharmacy prices or live stock counts | ❌ No public feed exists. Prices are listed MRPs (see `data/SOURCES.md`) |
+| Strip reading | ✅ `/api/ocr` with Gemini if `GEMINI_API_KEY` is set |
+| Photo quality check | ✅ Device-side blur and brightness checks |
+| Browser voice search, Hindi/English | ✅ Browser speech recognition and speech output; app catalogue |
+| **Phone voice assistant (Twilio + Vapi)** | ✅ **External pilot**: telephone calls, Hinglish, mispronunciation clarification, curated medicine Query tool. **Not connected to the full app catalogue/API.** |
+| Saved medicines and history | ✅ On-device `localStorage` |
+| WhatsApp medicine assistant | ✅ Meta webhook + persistent worker implemented; requires Meta configuration; see `docs/WHATSAPP-SETUP.md` |
+| Nearby Jan Aushadhi Kendras | ✅ `/api/kendras`; official PMBI locator snapshot (21,356 records in the bundled dataset), with distance, address, phone and directions; refresh via `npm run data:kendras` |
+| Jan Aushadhi stock quantity | ✅ Staff-entered stock for a chosen Kendra; fallback **labelled sample stock** (`STOCK_DEMO=0` disables fallback) |
+| Restock alerts | ✅ Web push and in-app notices; server checks every 30 s on a persistent process, or call `POST /api/alerts/check` via cron on serverless |
+| Brand/pharmacy stock reports | ✅ User-reported in-stock/out-of-stock status on device; affects cheapest available options |
+| Savings tracking | ✅ On-device purchase history; listed-MRP difference for the purchased quantity |
+| Live pharmacy prices or nationwide live stock | ❌ Not available from a connected public feed; listed MRPs and reported/sample stock only |
+| Phone assistant querying the full web API and live inventory | ⏳ Not implemented |
 
-Stock entries, alerts and dev push keys live in `data/runtime/state.json` (git-ignored) via `src/lib/server/runtime-store.ts`. That's fine for one server; for a multi-instance host (e.g. Vercel) swap that module for a database.
+Stock entries, alerts and development push keys are stored in git-ignored `data/runtime/state.json` through `src/lib/server/runtime-store.ts`. This works for one persistent server. On a multi-instance/serverless host such as Vercel, replace it with a shared database/storage adapter.
 
-## How matching decides (src/lib/engine.ts)
+## How matching decides (`src/lib/engine.ts`)
 
-- **Same composition:** every salt and strength identical, same dosage form, same release category, and both records list their full composition.
-- **Check with your pharmacist:** same composition, but one of these applies:
-  - extended-release (profiles differ between makers)
-  - release marking unclear (MR/OD)
-  - a combination (the dataset stores at most two salts)
-  - a listed price that looks like a data error
-- **Not the same medicine:** shares a salt, but strength, form, release or the salt set differs. Shown so users see why.
+- **Same composition:** all recorded ingredients and strengths match, the dosage form and release category match, and both records provide complete composition information.
+- **Check with your pharmacist:** the composition matches but there is uncertainty about extended-release profiles, MR/OD labels, combinations (the current dataset/parser supports up to two ingredients in this pathway), or questionable listed prices.
+- **Not the same medicine:** the products share an ingredient but their strength, full ingredient set, dosage form, or release characteristics differ.
 
-Composition text is normalised in `src/lib/composition.ts`:
-- Counter-ions are stripped: "Metformin Hydrochloride" = "Metformin". Succinate vs tartrate are kept distinct.
-- Spellings are aliased: Amoxycillin = Amoxicillin, Thyroxine = Levothyroxine.
-- Units are made canonical: 1 gm = 1000 mg.
-- Proton-pump inhibitors are always treated as gastro-resistant.
+Composition text is normalized in `src/lib/composition.ts`:
+
+- Some counter-ions are stripped for **search normalization**, e.g. `Metformin Hydrochloride` → `Metformin`. **This is not proof of finished-product equivalence.** Different salt forms need validated active-moiety equivalence and product-level review.
+- Spelling aliases include `Amoxycillin` → `Amoxicillin` and `Thyroxine` → `Levothyroxine`.
+- Units are canonicalized: `1 gm` = `1000 mg`.
+- The current parser treats proton-pump inhibitors as gastro-resistant by heuristic; verify actual formulation from product evidence before a clinical equivalence claim.
+
+The Vapi pilot's salt-form explanations are prompt/knowledge-base behavior; **they have not yet been implemented as a validated new matching algorithm in `src/lib/engine.ts`**.
 
 ## Project map
 
-```
-data/catalog.json.gz        compiled catalog (8.5 MB)       data/raw/  source files
-scripts/build-catalog.ts    raw → catalog                    scripts/build-lite.ts  small subset for a static demo
-src/lib/composition.ts      label parsing + normalisation    src/lib/engine.ts      search + matching (pure)
-src/lib/server/engine.ts    loads the catalog once           src/app/api/*          search, medicine, compare, ocr, whatsapp, meta
-src/lib/services/index.ts   client data layer (api | local)  src/screens/*          UI (UPI-style)
+```text
+data/catalog.json.gz         compiled catalog (~8.5 MB)      data/raw/                   source files
+data/kendras.json.gz         official Kendra locator snapshot
+scripts/build-catalog.ts     raw -> catalog                 scripts/build-lite.ts       small static subset
+src/lib/composition.ts       label parser + normalization    src/lib/engine.ts          pure search + matching
+src/lib/server/engine.ts     catalog loader                 src/app/api/*              search, compare, OCR, WhatsApp, Meta
+src/lib/services/index.ts   client data layer (API/local)   src/screens/*              UPI-style UI
+
+External to this repo (current phone pilot):
+Twilio phone number -> Vapi published assistant -> defaultQueryTool -> curated Markdown knowledge base
 ```
 
 ## Deploying
 
-The repo works on Vercel as-is. `next.config.ts` ships `data/catalog.json.gz` with the API routes. Add `GEMINI_API_KEY` in the project settings. Expect a cold start of about 1–3 s while the catalog loads.
+The web application works on Vercel. `next.config.ts` includes `data/catalog.json.gz` with its API routes. Set `GEMINI_API_KEY` in Vercel if you want OCR. Expect a cold start of approximately 1–3 seconds while the catalogue loads.
 
-## Safety
+**Phone calls do not depend on the Next.js deployment in the current setup.** They run through the Twilio number and Vapi's hosted assistant/knowledge base. Keep Vapi/Twilio billing, publication, call routing, and logging configured in their respective dashboards. A future API-backed Vapi tool would need a publicly reachable, secured backend endpoint.
 
-For the WhatsApp pilot, read [setup and hosting requirements](docs/WHATSAPP-SETUP.md). The bot needs a persistent Node server and SQLite; Vercel requires an external storage adapter. The previous public Twilio sending endpoint is disabled.
+## Safety and privacy
 
-Dawai Dost compares composition and listed prices. It does not give dosing advice, and the voice assistant refuses dosage questions. Every comparison tells people to check with their doctor or pharmacist before switching.
+- Dawai Dost provides information and price comparisons, not diagnoses, dosage instructions, prescription changes, or automatic clinical substitution approval.
+- A matching active moiety, chemical salt form, or combination label is not sufficient evidence of therapeutic interchangeability; verify strength basis, route, formulation, release and finished-product/regulatory status.
+- Never represent simulated Kendra stock or historical prices as live/verified.
+- Use fictional callers and medicine examples when testing. Before handling actual patient data, establish consent, call recording/transcript retention policies, access controls and appropriate regulatory/privacy review.
+- Do not put Twilio Auth Tokens, Vapi private keys or real patient data in Git, screenshots or public logs.
+- For the WhatsApp pilot, read [setup and hosting requirements](docs/WHATSAPP-SETUP.md). The bot needs a persistent Node server and SQLite; Vercel requires an external storage adapter. The previous public Twilio sending endpoint is disabled; **the Twilio phone integration described here is a separate, Vapi-managed voice connection**.
+
+
